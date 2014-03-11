@@ -1,0 +1,1 @@
+* https://github.com/daniellmb/angular-test-patterns/blob/master/example/javascript/app.js
