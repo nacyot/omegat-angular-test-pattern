@@ -142,6 +142,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg># Inject WITHOUT providing required values</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152549Z" creationid="nacyot" creationdate="20140313T152549Z">
+        <seg># 필요한 의존성 객체를 넘기지 않고 주입 함수를 호출합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg># Inject the code under test</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T152334Z" creationid="nacyot" creationdate="20140313T152334Z">
@@ -286,6 +294,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg># Use an anonymous function to wrap the code that will fail</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152516Z" creationid="nacyot" creationdate="20140313T152516Z">
+        <seg># 실패하는 코드를 무명 함수로 감싸줍니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg># Use to inject the code under test</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T152254Z" creationid="nacyot" creationdate="20140313T152254Z">
@@ -394,6 +410,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T142253Z" creationid="nacyot" creationdate="20140313T142249Z">
         <seg>## 왜 필요한가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>###</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152554Z" creationid="nacyot" creationdate="20140313T152554Z">
+        <seg>###</seg>
       </tuv>
     </tu>
     <tu>
@@ -4833,6 +4857,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>describe('Service: mySvc', function () {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152718Z" creationid="nacyot" creationdate="20140313T152718Z">
+        <seg>describe('Service: mySvc', function () {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>describe('default route', function () {</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T124949Z" creationid="nacyot" creationdate="20140313T124949Z">
@@ -5097,6 +5129,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>expect(inject.bind(null, svc)).toThrow 'mySvc: myVal not provided'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152604Z" creationid="nacyot" creationdate="20140313T152604Z">
+        <seg>expect(inject.bind(null, svc)).toThrow 'mySvc: myVal not provided'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>expect(invalidTemplate).toThrow()</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T123520Z" creationid="nacyot" creationdate="20140313T123520Z">
@@ -5357,6 +5397,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T133705Z" creationid="nacyot" creationdate="20140313T133705Z">
         <seg>expect(util.isSupported block.lang).toBe yes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(wrapper).toThrow 'mySvc: myVal not provided'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152551Z" creationid="nacyot" creationdate="20140313T152551Z">
+        <seg>expect(wrapper).toThrow 'mySvc: myVal not provided'</seg>
       </tuv>
     </tu>
     <tu>
@@ -6109,6 +6157,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T123717Z" creationid="nacyot" creationdate="20140313T123717Z">
         <seg>it '예상대로 렌더되어야하나다.', -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>it 'should throw an error when required dependency is missing', -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152458Z" creationid="nacyot" creationdate="20140313T152458Z">
+        <seg>it '필요한 의존성 객체가 없으면 에러가 발생해야 한다', -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7345,6 +7401,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>svc = (mySvc) -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152603Z" creationid="nacyot" creationdate="20140313T152603Z">
+        <seg>svc = (mySvc) -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>switch (lang) {</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T133401Z" creationid="nacyot" creationdate="20140313T133401Z">
@@ -8093,6 +8157,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T133549Z" creationid="nacyot" creationdate="20140313T133549Z">
         <seg>while i &lt; len</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>wrapper = -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152517Z" creationid="nacyot" creationdate="20140313T152517Z">
+        <seg>wrapper = -&gt;</seg>
       </tuv>
     </tu>
     <tu>
