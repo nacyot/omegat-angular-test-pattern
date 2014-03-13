@@ -262,6 +262,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>## Contributing Test Patterns</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T142400Z" creationid="nacyot" creationdate="20140313T142400Z">
+        <seg>## 앵귤러JS 테스트 패턴에 기여하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>## Coverage Threshold Enforcement for AngularJS</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T121414Z" creationid="nacyot" creationdate="20140313T121411Z">
@@ -302,6 +310,22 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>## What's an AngularJS Test Pattern?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T142228Z" creationid="nacyot" creationdate="20140313T142228Z">
+        <seg>## 앵귤러JS 테스트 패턴이란?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## Why?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T142253Z" creationid="nacyot" creationdate="20140313T142249Z">
+        <seg>## 왜 필요한가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>### Angular Scenario [&amp;#8593;](#end-to-end-testing-frameworks)</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T123832Z" creationid="nacyot" creationdate="20140313T123832Z">
@@ -322,6 +346,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T121138Z" creationid="nacyot" creationdate="20140313T121138Z">
         <seg>### 자바스크립트</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>### To add a new test pattern</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T142545Z" creationid="nacyot" creationdate="20140313T142545Z">
+        <seg>### 새로운 테스트 패턴 추가하기</seg>
       </tuv>
     </tu>
     <tu>
@@ -1054,6 +1086,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* Run `npm test` to ensure the pattern is valid.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T142612Z" creationid="nacyot" creationdate="20140313T142612Z">
+        <seg>* </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* See https://docs.google.com/document/d/1rk04jEuGfk9kYzfqCuOlPTSJw3hEDZJTBN5E5f1SALo/edit</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T130217Z" creationid="nacyot" creationdate="20140313T130158Z">
@@ -1388,6 +1428,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T133826Z" creationid="nacyot" creationdate="20140313T133826Z">
         <seg>* http://coffeescript.org</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>**Pull Requests Welcome!** I would love see these patterns evolve over time from community input as</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T142440Z" creationid="nacyot" creationdate="20140313T142440Z">
+        <seg>**풀 리퀘스트는 언제든 환영합니다**. 커뮤니티의 참여로 여기있는 패턴이 더욱 더 </seg>
       </tuv>
     </tu>
     <tu>
@@ -2720,6 +2768,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>It's a design pattern for testing.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T142242Z" creationid="nacyot" creationdate="20140313T142242Z">
+        <seg>테스트를 위한 디자인 패턴입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>JavaScript AngularJS Example Application</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T125703Z" creationid="nacyot" creationdate="20140313T125703Z">
@@ -2812,6 +2868,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T121942Z" creationid="nacyot" creationdate="20140313T121935Z">
         <seg>`coverage` 태스크를 실행해 테스트 결과가 커버리지 기준을 만족하는지 분석합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>So *please share what's working well for you!*</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T142509Z" creationid="nacyot" creationdate="20140313T142509Z">
+        <seg>*여러분이 알고 계신 유용한 지식을 공유해주세요*!</seg>
       </tuv>
     </tu>
     <tu>
@@ -3108,6 +3172,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T133422Z" creationid="nacyot" creationdate="20140313T133422Z">
         <seg>This simple utility written in literate CoffeeScript parses markdown into blocks of code organized in test pattern sections.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This started as a place for me to jot down the patterns I've been using while building several AngularJS projects.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T142346Z" creationid="nacyot" creationdate="20140313T142346Z">
+        <seg>이 프로젝트는 제가 맡은 몇몇 앵귤러JS 프로젝트에서 사용한 패턴들을 정리하는 데서 시작되었습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5588,6 +5660,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T125035Z" creationid="nacyot" creationdate="20140313T125035Z">
         <seg>module.exports = function (grunt) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>more refined approches are discovered.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T142443Z" creationid="nacyot" creationdate="20140313T142443Z">
+        <seg>가다듬어지기를 바랍니다.</seg>
       </tuv>
     </tu>
     <tu>
