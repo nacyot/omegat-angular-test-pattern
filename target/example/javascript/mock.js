@@ -1,17 +1,9 @@
-/*
-Example AngularJS Application
-=============================
+/*앵귤러JS 예제 어플리케이션=============================
 
-Service Mocks
--------------
-*/
+Service Mocks-------------*/
 
-// Declare my service mock
-MockMySvc = function () {
-  'use strict';
+// Declare my service mockMockMySvc = function () {'use strict';
 
-  // Methods
-  this.myMethod = jasmine.createSpy('myMethod');
+  // 메소드this.myMethod = jasmine.createSpy('myMethod');
 
-  return this;
-};
+  return this;};

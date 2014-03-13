@@ -6,7 +6,6 @@
         <files targetFilenamePattern="${filename}" sourceFilenameMask="*.sdlxliff"/>
     </filter>
     <filter enabled="true" className="org.omegat.filters2.text.TextFilter">
-        <files targetFilenamePattern="${filename}" sourceFilenameMask="*.txt"/>
         <files targetEncoding="ISO-8859-1" sourceEncoding="ISO-8859-1" targetFilenamePattern="${filename}" sourceFilenameMask="*.txt1"/>
         <files targetEncoding="ISO-8859-2" sourceEncoding="ISO-8859-2" targetFilenamePattern="${filename}" sourceFilenameMask="*.txt2"/>
         <files targetEncoding="UTF-8" sourceEncoding="UTF-8" targetFilenamePattern="${filename}" sourceFilenameMask="*.utf8"/>

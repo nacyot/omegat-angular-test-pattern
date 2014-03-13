@@ -1,161 +1,66 @@
-## Unit Testing AngularJS Directives
+## 앵귤러JS 디렉티브 유닛 테스트
 
 ##### 테스트 패턴
 
-* [Suggested Setup](#suggested-directive-unit-test-setup-)
-* When created
-  * [should throw error when ngModel attribute not defined](#throw-error-when-ngmodel-attribute-not-defined-)
-  * [should render the expected output](#render-the-expected-output-)
-* When the model changes
-  * *[pull request welcome!](../#contributing-test-patterns)*
-* when destroyed
-  * *[pull request welcome!](../#contributing-test-patterns)*
+* [권정하는 설정](#suggested-directive-unit-test-setup-)* When created* [should throw error when ngModel attribute not defined](#throw-error-when-ngmodel-attribute-not-defined-)* [should render the expected output](#render-the-expected-output-)* 모델이 변경되었을 때* *[풀리퀘스트로 알려주세요!](../#contributing-test-patterns)** when destroyed* *[풀리퀘스트로 알려주세요!](../#contributing-test-patterns)*
 
-###### [Example](../example) implementation of these testing patterns
+###### [예제](../example)는 이 패턴들을 기반으로 만들어졌습니다.
 
-####Suggested Directive Unit Test Setup [&#8593;](#testing-patterns)
-```CoffeeScript
-# CoffeeScript
-describe 'Directive: myDir', ->
-  element = scope = compile = defaultData = null
-  validTemplate = '<my-dir ng-model="data"></my-dir>'
+#### 권장되는 지시자 유닛 테스트 설정[&#8593;](#testing-patterns)```CoffeeScript# CoffeeScriptdescribe 'Directive: myDir', ->element = scope = compile = defaultData = nullvalidTemplate = '<my-dir ng-model="data"></my-dir>'
 
-  createDirective = (data, template) ->
-    # Setup scope state
-    scope.data = data or defaultData
+  createDirective = (data, template) -># 스코프(scope) 상태 설정scope.data = data or defaultData
 
-    # Create directive
-    elm = compile(template or validTemplate) scope
+    # 지시자 만들기elm = compile(template or validTemplate) scope
 
-    # Trigger watchers
-    #scope.$apply()
-    
-    # Return
-    elm
+    # Trigger watchers#scope.$apply()# 리턴elm
 
-  beforeEach ->
-    # Load the directive's module
-    module 'myApp'
+  beforeEach -># 디렉티브의 모듈 읽어오기 @@@module 'myApp'
 
-    # Reset data each time
-    defaultData = 42
+    # 매 번 실행시 데이터 재설정defaultData = 42
 
-    # Provide any mocks needed
-    module ($provide) ->
-      #$provide.value 'Name', new MockName()
-      # Make sure CoffeeScript doesn't return anything
+    # Provide any mocks neededmodule ($provide) ->#$provide.value 'Name', new MockName()# 커피스크립트 상에서 어떤 것도 리턴하지 않음에 주목하세요.
       null
 
-    # Inject in angular constructs otherwise,
-    #  you would need to inject these into each test
-    inject ($rootScope, $compile) ->
-      scope = $rootScope.$new()
-      compile = $compile
-    
-  describe 'when created', ->
-    # Add specs
+    # Inject in angular constructs otherwise,// 테스트 시에도 이것들을 주입해야합니다.
+    inject ($rootScope, $compile) ->scope = $rootScope.$new()compile = $compiledescribe '만들어졌을 때', -># 스펙 추가하기
 
-  describe 'when the model changes', ->
-    # Add specs
+  describe '모델이 바뀌었을 때', -># 스펙 추가하기
 
-  describe 'when destroyed', ->
-    # Add specs
-```
+  describe 'when destroyed', -># 스펙 추가하기```
 
-```JavaScript
-// JavaScript
-describe('Directive: myDir', function () {
-  var element, scope, compile, defaultData,
-      validTemplate = '<my-dir ng-model="data"></my-dir>';
+```JavaScript// JavaScriptdescribe('Directive: myDir', function () {var element, scope, compile, defaultData,validTemplate = '<my-dir ng-model="data"></my-dir>';
 
-  function createDirective(data, template) {
-    var elm;
-    
-    // Setup scope state
-    scope.data = data || defaultData;
+  createDirective = (data, template) ->var elm;// 스코프(scope) 상태 설정scope.data = data || defaultData;
 
-    // Create directive
-    elm = compile(template || validTemplate)(scope);
+    // 지시자 만들기elm = compile(template || validTemplate)(scope);
 
-    // Trigger watchers
-    //scope.$apply();
+    // Trigger watchers//scope.$apply();
 
-    // Return
-    return elm;
-  }
+    // Returnreturn elm;}
 
   beforeEach(function () {
 
-    // Load the directive's module
-    module('myApp');
-    
-    // Reset data each time
-    defaultData = 42;
-    
-    // Provide any mocks needed
-    module(function ($provide) {
-      //$provide.value('Name', new MockName());
-    });
-    
-    // Inject in angular constructs otherwise,
-    //  you would need to inject these into each test
-    inject(function ($rootScope, $compile) {
-      scope = $rootScope.$new();
-      compile = $compile;
-    });
-  });
+    // 디렉티브의 모듈 읽어오기 @@@module('myApp');// 매 번 실행시 데이터 재설정defaultData = 42;// Provide any mocks neededmodule(function ($provide) {//$provide.value('Name', new MockName());});// Inject in angular constructs otherwise,// 테스트 시에도 이것들을 주입해야합니다.
+    inject(function ($rootScope, $compile) {scope = $rootScope.$new();compile = $compile;});});
 
-  describe('when created', function () {
-    // Add specs
-  });
+  describe('만들어졌을 때', function () {// Add specs});
 
-  describe('when the model changes', function () {
-    // Add specs
-  });
+  describe('모델이 바뀌었을 때', function () {// Add specs});
 
-  return describe('when destroyed', function () {
-    // Add specs
-  });
-});
-```
+  return describe('when destroyed', function () {// Add specs});});```
 
-#### My directive should:
+#### 이 디렉티브는:
 
-#####throw error when ngModel attribute not defined [&#8593;](#testing-patterns)
-```CoffeeScript
-# CoffeeScript
-it 'should throw error when ngModel attribute not defined', ->
-  invalidTemplate = ->
-    createDirective null, '<my-dir></my-dir>'
-    # Note: older versions of Angular throw this error as: 'No controller: ngModel'
-    # More recently it is: Controller 'ngModel', required by directive 'myDir', can't be found!    expect(invalidTemplate).toThrow()
-```
+##### ngModel 속성이 정의되어있지 않으면 에러를 발생시켜야한다 [&#8593;](#testing-patterns)```CoffeeScript# CoffeeScriptit 'ngModel이 정의되어있지 않으면 에러를 발생시켜야 한다', ->invalidTemplate = ->createDirective null, '<my-dir></my-dir>'# 참고 : 이전 버전의 앵귤러JS에서는 'No controller: ngModel'이라는 에러를 발생시켰습니다.
+    # 최근 버전에서는 "'myDir' 지시자에서 요구하는 'ngModel' 컨트롤러를 찾을 수 없습니다(Controller 'ngModel', required by directive 'myDir', can't be found!)"라는 에러를 발생시킵니다.
+expect(invalidTemplate).toThrow()```
 
-```JavaScript
-// JavaScript
-it('should throw error when ngModel attribute not defined', function () {
-  function invalidTemplate() {
-    createDirective(null, '<my-dir></my-dir>');
-  }
-  // Note: older versions of Angular throw this error as: 'No controller: ngModel'
-  // More recently it is: Controller 'ngModel', required by directive 'myDir', can't be found!  expect(invalidTemplate).toThrow();
-});
-```
+```JavaScript// JavaScriptit('ngModel이 정의되어있지 않으면 에러를 발생시켜야 한다', function(){function invalidTemplate() {createDirective(null, '<my-dir></my-dir>');}// 참고 : 이전 버전의 앵귤러JS에서는 'No controller: ngModel'이라는 에러를 발생시켰습니다.
+  // 최근 버전에서는 "'myDir' 지시자에서 요구하는 'ngModel' 컨트롤러를 찾을 수 없습니다(Controller 'ngModel', required by directive 'myDir', can't be found!)"라는 에러를 발생시킵니다.
+expect(invalidTemplate).toThrow();});```
 
-#####render the expected output [&#8593;](#testing-patterns)
-```CoffeeScript
-# CoffeeScript
-it 'should render the expected output', ->
-  element = createDirective()
-  expect(element.text()).toBe 'this is my directive'
-```
+##### 예상대로 렌더되어야한다. [&#8593;](#testing-patterns)```CoffeeScript# CoffeeScriptit '예상대로 렌더되어야하나다.', ->element = createDirective()expect(element.text()).toBe 'this is my directive'```
 
-```JavaScript
-// JavaScript
-it('should render the expected output', function () {
-  element = createDirective();
-  return expect(element.text()).toBe('this is my directive');
-});
-```
+```JavaScript// JavaScriptit('예상대로 렌더되어야한다.', function () {element = createDirective();expect(element.text()).toBe 'this is my directive'});```
 
 

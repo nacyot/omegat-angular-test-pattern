@@ -1,60 +1,52 @@
-14. 3. 13 오후 10:29
+14. 3. 13 오후 10:55
 프로젝트 통계
 
       	  부분	   단어	문자 (공백 없이)	문자 (공백 포함)	
-총:    	2297	42420	    263641	    272575	
-남은:   	 990	39809	    239863	    246842	
-고유:   	1373	40922	    250195	    257975	
-남은 고유:	 841	39053	    234701	    241054	
+총:    	2264	42354	    263162	    272036	
+남은:   	 544	37360	    223196	    228117	
+고유:   	1369	40904	    250089	    257855	
+남은 고유:	 474	37004	    220775	    225390	
 
 
 개별 파일 통계:
 
-파일 이름                                      	총 부분	나머지 부분	고유 부분	남은 고유 부분	 총 단어	남은 단어	고유 단어	나머지 고유 단어	총 문자 (공백 없이)	나머지 문자 (공백 없이)	고유 문자 (공백 없이)	나머지 고유 문자 (공백 없이)	총 문자 (공백 포함)	나머지 문자 (공백 포함)	고유 문자 (공백 포함)	나머지 고유 문자 (공백 포함)	
-example/coffeescript/coffee-script.js      	  22	    19	   22	      19	33820	33820	33820	    33820	      198276	        198270	       198276	           198270	      200335	        200329	       200335	           200329	
-example/coffeescript/e2e.html              	   1	     0	    1	       0	    3	    0	    3	        0	          20	             0	           20	                0	          22	             0	           22	                0	
-example/coffeescript/index.html            	   5	     4	    5	       4	   22	   18	   22	       18	         180	           143	          180	              143	         192	           152	          192	              152	
-example/Gruntfile.js                       	  70	     4	   55	       4	  123	   21	  109	       21	        1085	           131	          994	              131	        1156	           149	         1053	              149	
-example/javascript/app.js                  	 144	    14	  103	      14	  317	   99	  298	       99	        2640	           554	         2336	              554	        2893	           644	         2579	              644	
-example/javascript/e2e.html                	   1	     0	    0	       0	    3	    0	    0	        0	          20	             0	            0	                0	          22	             0	            0	                0	
-example/javascript/index.html              	   5	     3	    1	       1	   22	   14	    2	        2	         176	           102	           19	               19	         188	           108	           22	               22	
-example/javascript/karma.conf.js           	  41	     3	   36	       3	  100	    7	  100	        7	         833	            51	          822	               51	         909	            57	          898	               57	
-example/javascript/mock.js                 	  13	     3	    7	       3	   19	    8	   14	        8	         206	            55	          132	               55	         222	            64	          145	               64	
-example/README.md                          	  12	     9	   11	       8	  135	  128	  133	      126	         835	           752	          819	              736	         954	           866	          937	              849	
-example/views/about.html                   	   1	     0	    1	       0	    5	    0	    5	        0	          19	             0	           19	                0	          23	             0	           23	                0	
-example/views/home.html                    	   1	     0	    1	       0	    5	    0	    5	        0	          18	             0	           18	                0	          22	             0	           22	                0	
-hooks/README.md                            	   5	     5	    5	       5	   53	   53	   53	       53	         397	           397	          397	              397	         439	           439	          439	              439	
-hooks/validate-commit-msg.js               	  84	     0	   68	       0	  289	    0	  287	        0	        2187	             0	         2149	                0	        2422	             0	         2383	                0	
-patterns/ab.md                             	  12	     8	   12	       8	  107	   91	  107	       91	         633	           510	          633	              510	         727	           589	          727	              589	
-patterns/complexity.md                     	  52	    15	   20	      13	  193	  145	  146	      140	        1654	          1140	         1182	             1098	        1782	          1236	         1280	             1190	
-patterns/constant.md                       	  59	    29	   42	      29	  164	  110	  156	      110	        1298	           846	         1170	              846	        1431	           932	         1298	              932	
-patterns/controller.md                     	 257	    54	  128	      51	  733	  331	  618	      319	        6421	          2381	         5078	             2298	        6963	          2682	         5540	             2587	
-patterns/coverage.md                       	  79	     1	   22	       1	  278	   36	  212	       36	        2062	           237	         1414	              237	        2283	           266	         1585	              266	
-patterns/directive.md                      	 127	    13	   71	       8	  417	   53	  311	       32	        3304	           434	         2414	              290	        3667	           485	         2683	              320	
-patterns/e2e.md                            	 165	    66	   78	      49	  607	  389	  488	      335	        5141	          2960	         3860	             2512	        5578	          3235	         4226	             2761	
-patterns/filter.md                         	  70	    33	   27	      27	  214	  140	  115	      115	        1658	          1039	          875	              875	        1836	          1155	          966	              966	
-patterns/mock.md                           	  42	    24	   24	      24	  230	  208	  208	      208	        1452	          1252	         1252	             1252	        1650	          1434	         1434	             1434	
-patterns/perceptualdiff.md                 	   5	     3	    3	       3	   45	   35	   35	       35	         305	           223	          223	              223	         343	           253	          253	              253	
-patterns/performance.md                    	   5	     2	    2	       1	   43	   30	   16	       13	         274	           163	          116	               87	         311	           189	          129	               97	
-patterns/README.md                         	   4	     4	    4	       4	   53	   53	   53	       53	         403	           403	          403	              403	         444	           444	          444	              444	
-patterns/service.md                        	 272	   145	  112	     112	  820	  704	  496	      496	        6719	          5337	         3972	             3972	        7344	          5888	         4325	             4325	
-README.md                                  	  94	    94	   94	      94	  960	  960	  960	      960	        6563	          6563	         6563	             6563	        7339	          7339	         7339	             7339	
-spec/example.tester.js                     	 137	   109	   99	      99	  415	  409	  386	      386	        3063	          2993	         2798	             2798	        3418	          3341	         3128	             3128	
-spec/fixtures/code-comment/coffeescript.txt	   4	     1	    1	       1	    6	    4	    4	        4	          58	            27	           27	               27	          62	            30	           30	               30	
-spec/fixtures/code-comment/javascript.txt  	   4	     1	    0	       0	    6	    4	    0	        0	          55	            27	            0	                0	          59	            30	            0	                0	
-spec/fixtures/code-lang/coffeescript.txt   	   3	     1	    1	       1	    5	    4	    4	        4	          47	            29	           29	               29	          50	            32	           32	               32	
-spec/fixtures/code-lang/javascript.txt     	   3	     1	    0	       0	    5	    4	    0	        0	          45	            29	            0	                0	          48	            32	            0	                0	
-spec/fixtures/lint-free/coffeescript.txt   	   5	     1	    3	       1	   10	    5	    9	        5	          64	            27	           46	               27	          73	            31	           55	               31	
-spec/fixtures/lint-free/javascript.txt     	   6	     1	    2	       0	   12	    5	    6	        0	          77	            27	           32	                0	          89	            31	           40	                0	
-spec/fixtures/valid-code/coffeescript.txt  	   4	     1	    2	       1	   10	    5	    9	        5	          62	            23	           44	               23	          73	            27	           55	               27	
-spec/fixtures/valid-code/javascript.txt    	   4	     1	    1	       0	   12	    5	    6	        0	          71	            23	           32	                0	          85	            27	           42	                0	
-spec/lib/parse.util.coffee.md              	 105	    37	   82	      35	  553	  394	  535	      391	        3715	          2216	         3490	             2195	        4190	          2566	         3955	             2544	
-spec/lib/rule.util.coffee.md               	  73	    55	   60	      51	  317	  283	  277	      247	        2523	          2150	         2206	             1925	        2790	          2393	         2437	             2132	
-spec/lib/tester.util.coffee.md             	 105	    87	   77	      77	  471	  459	  388	      388	        3153	          2925	         2522	             2522	        3551	          3317	         2852	             2852	
-spec/pattern.tester.js                     	  45	    36	   30	      30	  143	  139	  116	      116	        1080	          1042	          878	              878	        1215	          1174	          993	              993	
-spec/rule.tester.js                        	   8	     8	    5	       5	   20	   20	   11	       11	         165	           165	           78	               78	         174	           174	           84	               84	
-spec/rules/code-comment.spec.coffee.md     	  42	    29	   26	      26	  174	  167	  157	      157	        1306	          1190	         1092	             1092	        1437	          1319	         1218	             1218	
-spec/rules/code-lang.spec.coffee.md        	  29	    20	    7	       7	  134	  130	   51	       51	         985	           912	          297	              297	        1088	          1015	          340	              340	
-spec/rules/lint-free.spec.coffee.md        	  34	    20	    8	       8	  139	  125	   61	       61	        1015	           889	          474	              474	        1124	           985	          517	              517	
-spec/rules/README.md                       	   7	     7	    7	       7	   68	   68	   68	       68	         362	           362	          362	              362	         423	           423	          423	              423	
-spec/rules/valid-code.spec.coffee.md       	  31	    19	    7	       7	  140	  126	   62	       62	        1016	           864	          452	              452	        1129	           960	          495	              495	
+파일 이름                                 	총 부분	나머지 부분	고유 부분	남은 고유 부분	 총 단어	남은 단어	고유 단어	나머지 고유 단어	총 문자 (공백 없이)	나머지 문자 (공백 없이)	고유 문자 (공백 없이)	나머지 고유 문자 (공백 없이)	총 문자 (공백 포함)	나머지 문자 (공백 포함)	고유 문자 (공백 포함)	나머지 고유 문자 (공백 포함)	
+example/coffeescript/coffee-script.js 	  22	    15	   22	      15	33820	33806	33820	    33806	      198276	        198163	       198276	           198163	      200335	        200209	       200335	           200209	
+example/coffeescript/e2e.html         	   1	     0	    1	       0	    3	    0	    3	        0	          20	             0	           20	                0	          22	             0	           22	                0	
+example/coffeescript/index.html       	   5	     3	    5	       3	   22	   16	   22	       16	         180	           122	          180	              122	         192	           128	          192	              128	
+example/Gruntfile.js                  	  70	     4	   55	       4	  123	   21	  109	       21	        1085	           131	          994	              131	        1156	           149	         1053	              149	
+example/javascript/app.js             	 144	    14	  103	      14	  317	   99	  298	       99	        2640	           554	         2336	              554	        2893	           644	         2579	              644	
+example/javascript/e2e.html           	   1	     0	    0	       0	    3	    0	    0	        0	          20	             0	            0	                0	          22	             0	            0	                0	
+example/javascript/index.html         	   5	     3	    1	       1	   22	   14	    2	        2	         176	           102	           19	               19	         188	           108	           22	               22	
+example/javascript/karma.conf.js      	  41	     3	   36	       3	  100	    7	  100	        7	         833	            51	          822	               51	         909	            57	          898	               57	
+example/javascript/mock.js            	  13	     3	    7	       3	   19	    8	   14	        8	         206	            55	          132	               55	         222	            64	          145	               64	
+example/README.md                     	  12	     9	   11	       8	  135	  128	  133	      126	         835	           752	          819	              736	         954	           866	          937	              849	
+example/views/about.html              	   1	     0	    1	       0	    5	    0	    5	        0	          19	             0	           19	                0	          23	             0	           23	                0	
+example/views/home.html               	   1	     0	    1	       0	    5	    0	    5	        0	          18	             0	           18	                0	          22	             0	           22	                0	
+hooks/README.md                       	   5	     0	    5	       0	   53	    0	   53	        0	         397	             0	          397	                0	         439	             0	          439	                0	
+hooks/validate-commit-msg.js          	  84	     0	   68	       0	  289	    0	  287	        0	        2187	             0	         2149	                0	        2422	             0	         2383	                0	
+patterns/ab.md                        	  12	     8	   12	       8	  107	   91	  107	       91	         633	           510	          633	              510	         727	           589	          727	              589	
+patterns/complexity.md                	  52	    15	   20	      13	  193	  145	  146	      140	        1654	          1140	         1182	             1098	        1782	          1236	         1280	             1190	
+patterns/constant.md                  	  59	    29	   42	      29	  164	  110	  156	      110	        1298	           846	         1170	              846	        1431	           932	         1298	              932	
+patterns/controller.md                	 257	    54	  128	      51	  733	  331	  618	      319	        6421	          2381	         5078	             2298	        6963	          2682	         5540	             2587	
+patterns/coverage.md                  	  79	     1	   22	       1	  278	   36	  212	       36	        2062	           237	         1414	              237	        2283	           266	         1585	              266	
+patterns/directive.md                 	 127	    13	   71	       8	  417	   53	  311	       32	        3304	           434	         2414	              290	        3667	           485	         2683	              320	
+patterns/e2e.md                       	 165	    66	   78	      49	  607	  389	  488	      335	        5141	          2960	         3860	             2512	        5578	          3235	         4226	             2761	
+patterns/filter.md                    	  70	    33	   27	      27	  214	  140	  115	      115	        1658	          1039	          875	              875	        1836	          1155	          966	              966	
+patterns/mock.md                      	  42	    24	   24	      24	  230	  208	  208	      208	        1452	          1252	         1252	             1252	        1650	          1434	         1434	             1434	
+patterns/perceptualdiff.md            	   5	     3	    3	       3	   45	   35	   35	       35	         305	           223	          223	              223	         343	           253	          253	              253	
+patterns/performance.md               	   5	     2	    2	       1	   43	   30	   16	       13	         274	           163	          116	               87	         311	           189	          129	               97	
+patterns/README.md                    	   4	     4	    4	       4	   53	   53	   53	       53	         403	           403	          403	              403	         444	           444	          444	              444	
+patterns/service.md                   	 272	   145	  112	     112	  820	  704	  496	      496	        6719	          5337	         3972	             3972	        7344	          5888	         4325	             4325	
+README.md                             	  94	    93	   94	      93	  960	  936	  960	      936	        6563	          6341	         6563	             6341	        7339	          7104	         7339	             7104	
+spec/example.tester.js                	 137	     0	   99	       0	  415	    0	  386	        0	        3063	             0	         2798	                0	        3418	             0	         3128	                0	
+spec/lib/parse.util.coffee.md         	 105	     0	   82	       0	  553	    0	  535	        0	        3715	             0	         3490	                0	        4190	             0	         3955	                0	
+spec/lib/rule.util.coffee.md          	  73	     0	   60	       0	  317	    0	  277	        0	        2523	             0	         2206	                0	        2790	             0	         2437	                0	
+spec/lib/tester.util.coffee.md        	 105	     0	   77	       0	  471	    0	  388	        0	        3153	             0	         2522	                0	        3551	             0	         2852	                0	
+spec/pattern.tester.js                	  45	     0	   30	       0	  143	    0	  116	        0	        1080	             0	          878	                0	        1215	             0	          993	                0	
+spec/rule.tester.js                   	   8	     0	    5	       0	   20	    0	   11	        0	         165	             0	           78	                0	         174	             0	           84	                0	
+spec/rules/code-comment.spec.coffee.md	  42	     0	   26	       0	  174	    0	  157	        0	        1306	             0	         1092	                0	        1437	             0	         1218	                0	
+spec/rules/code-lang.spec.coffee.md   	  29	     0	    7	       0	  134	    0	   51	        0	         985	             0	          297	                0	        1088	             0	          340	                0	
+spec/rules/lint-free.spec.coffee.md   	  34	     0	   12	       0	  139	    0	   71	        0	        1015	             0	          525	                0	        1124	             0	          581	                0	
+spec/rules/README.md                  	   7	     0	    7	       0	   68	    0	   68	        0	         362	             0	          362	                0	         423	             0	          423	                0	
+spec/rules/valid-code.spec.coffee.md  	  31	     0	    9	       0	  140	    0	   72	        0	        1016	             0	          505	                0	        1129	             0	          565	                0	

@@ -1,6 +1,6 @@
 # Angular Test Patterns [![Build Status](https://api.travis-ci.org/daniellmb/angular-test-patterns.png)](https://travis-ci.org/daniellmb/angular-test-patterns) [![Dependency Status](https://gemnasium.com/daniellmb/angular-test-patterns.png)](https://gemnasium.com/daniellmb/angular-test-patterns#tab-dev_dependencies)
 
-High Quality Cut-n-Paste Guide for Testing your AngularJS [Controllers](patterns/controller.md), [Services](patterns/service.md), [Constants](patterns/constant.md), [Directives](patterns/directive.md) and [Filters](patterns/filter.md). As well as ideas on how to use [Mocks](patterns/mock.md), [End-to-End](patterns/e2e.md) tests, [Performance Testing](patterns/performance.md), [A/B Testing](patterns/ab.md) and [More](patterns/perceptualdiff.md)!
+바로 활용할 수 있는 유용한 앵귤러JS 테스팅 패턴을 소개합니다. [As well as ideas on how to use [Mocks](patterns/mock.md), [End-to-End](patterns/e2e.md) tests, [Performance Testing](patterns/performance.md), [A/B Testing](patterns/ab.md) and [More](patterns/perceptualdiff.md)!
 
 ## Testing Patterns
 
@@ -19,32 +19,24 @@ High Quality Cut-n-Paste Guide for Testing your AngularJS [Controllers](patterns
 * [Performance Testing](patterns/performance.md#performance-testing-angularjs)
 * [Perceptual Difference Testing](patterns/perceptualdiff.md#perceptual-difference-testing-angularjs)
 
-## What's an AngularJS Test Pattern?
-A test pattern is a proven way to ~~properly~~ test a given feature of your AngularJS application. It's a design pattern for testing.
+## What's an AngularJS Test Pattern?A test pattern is a proven way to ~~properly~~ test a given feature of your AngularJS application. It's a design pattern for testing.
 
-## Why?
-This started as a place for me to jot down the patterns I've been using while building several AngularJS projects.
+## Why?This started as a place for me to jot down the patterns I've been using while building several AngularJS projects.
 
 ## Contributing Test Patterns
 **Pull Requests Welcome!** I would love see these patterns evolve over time from community input as
 more refined approches are discovered. So *please share what's working well for you!*
 
-### Prepare your environment
-* Install [Node.js](http://nodejs.org) (NPM will come bundled).
+### Prepare your environment* Install [Node.js](http://nodejs.org) (NPM will come bundled).
 * [Fork](http://help.github.com/forking) the [main repository](https://github.com/daniellmb/angular-test-patterns).
-* Clone your Github repository: `git clone git@github.com:<github username>/angular-test-patterns.git`
-* Go to the test patterns directory: `cd angular-test-patterns`
-* Add the [main repository](https://github.com/daniellmb/angular-test-patterns) as an upstream remote to your repository: `git remote add upstream https://github.com/daniellmb/angular-test-patterns.git`
-* Run `bash init-repo.sh` to initialize your local repository.
+* Clone your Github repository: `git clone git@github.com:<github username>/angular-test-patterns.git`* Go to the test patterns directory: `cd angular-test-patterns`* Add the [main repository](https://github.com/daniellmb/angular-test-patterns) as an upstream remote to your repository: `git remote add upstream https://github.com/daniellmb/angular-test-patterns.git`* Run `bash init-repo.sh` to initialize your local repository.
 
 ### To add a new test pattern* Edit or create a markdown file to hold your new test pattern.
-* Add a [test pattern section](spec/lib/parse.util.coffee.md#anatomy-of-a-test-pattern-section) for your pattern
-   * In your new section add [code blocks](spec/lib/parse.util.coffee.md#anatomy-of-a-test-pattern-code-block) for each of the [supported languages](spec/config.json#L2).
-   * Edit the [example applications](/example) to satisfy your new pattern.
-* Run `npm test` to ensure the pattern is valid. This does the following:
-   * Unit tests the [test pattern rules](#unit-testing-the-patterns).
-   * Unit tests that each pattern follows those rules.
-   * Unit tests the [example applications](/example) against the patterns.
+* Add a [test pattern section](spec/lib/parse.util.coffee.md#anatomy-of-a-test-pattern-section) for your pattern* In your new section add [code blocks](spec/lib/parse.util.coffee.md#anatomy-of-a-test-pattern-code-block) for each of the [supported languages](spec/config.json#L2).
+* Edit the [example applications](/example) to satisfy your new pattern.
+* Run `npm test` to ensure the pattern is valid. This does the following:* Unit tests the [test pattern rules](#unit-testing-the-patterns).
+* Unit tests that each pattern follows those rules.
+* Unit tests the [example applications](/example) against the patterns.
 
 ### Unit Testing the Patterns
 To ensure a clear and consistent style of test patterns, every block of code must pass the following [rules](spec/rules) via `npm test` The rules are written in literate CoffeeScript so they are nicely self-documenting.
@@ -56,23 +48,13 @@ To ensure a clear and consistent style of test patterns, every block of code mus
 
 ### To add a new pattern rule* Create a new `<my-rule-name>.spec.coffee.md` literate CoffeeScript file in the `spec/rules` folder.
 * Create a new `<my-rule-name>` folder in the `spec/fixtures` folder.
-   * Add a text file for each of the supported languages, [see examples](spec/fixtures).
-   * Make your fixture as specific as possible. For example, if you are testing that the pattern is [lint-free](spec/fixtures/lint-free/coffeescript.txt) you don't need to include a [code comment](spec/fixtures/code-comment/coffeescript.txt) as there is a separate test for that.
+* Add a text file for each of the supported languages, [see examples](spec/fixtures).
+* Make your fixture as specific as possible. For example, if you are testing that the pattern is [lint-free](spec/fixtures/lint-free/coffeescript.txt) you don't need to include a [code comment](spec/fixtures/code-comment/coffeescript.txt) as there is a separate test for that.
 * Define your test pattern rule, [see examples](spec/rules).
 * Run `npm run testRules` to ensure the rule passes using the fixtures.
 
-### Submitting Your Changes
-* Create and checkout a new branch off the master branch for your changes: `git checkout -b my-fix-branch master`
-* Create your patch, make sure that all tests pass.
-* Commit your changes and create a descriptive commit message (the commit message is used to generate release notes, please check out the [commit message conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y) and the commit message presubmit hook [validate-commit-msg.js](hooks/validate-commit-msg.js)): `git commit -a`
-* Push your branch to Github: `git push origin my-fix-branch`
-* In Github, send a pull request to `daniellmb:master`
-* When the patch is reviewed and merged, delete your branch and pull yours — and other — changes from the main (upstream) repository:
-   * Delete your branch in Github, run: `git push origin :my-fix-branch`
-   * Check out the master branch, run: `git checkout master`
-   * Delete your local branch, run: `git branch -D my-fix-branch`
-   * Update your master with the latest upstream version, run: `git pull --ff upstream master`
-* If you need to make changes to your pull request, you can update the commit with `git commit --amend`. Then, update the pull request with `git push -f`.
+### Submitting Your Changes* Create and checkout a new branch off the master branch for your changes: `git checkout -b my-fix-branch master`* Create your patch, make sure that all tests pass.
+* Commit your changes and create a descriptive commit message (the commit message is used to generate release notes, please check out the [commit message conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y) and the commit message presubmit hook [validate-commit-msg.js](hooks/validate-commit-msg.js)): `git commit -a`* Push your branch to Github: `git push origin my-fix-branch`* In Github, send a pull request to `daniellmb:master`* When the patch is reviewed and merged, delete your branch and pull yours — and other — changes from the main (upstream) repository:* Delete your branch in Github, run: `git push origin :my-fix-branch`* Check out the master branch, run: `git checkout master`* Delete your local branch, run: `git branch -D my-fix-branch`* Update your master with the latest upstream version, run: `git pull --ff upstream master`* If you need to make changes to your pull request, you can update the commit with `git commit --amend`. Then, update the pull request with `git push -f`.
 
 That's it! Thank you for your contribution!
 

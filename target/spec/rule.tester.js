@@ -1,11 +1,7 @@
-require('coffee-script/register');
-var util = require('./lib/tester.util');
+require('coffee-script/register');var util = require('./lib/tester.util');
 
-//find specs
-var specs = util.findSpecs();
+//find specsvar specs = util.findSpecs();
 
-//load them
-util.loadSpecs(specs);
+//load themutil.loadSpecs(specs);
 
-//run them
-util.runSpecs();
+//run themutil.runSpecs();
