@@ -1,0 +1,4267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.8_3" segtype="sentence" srclang="EN"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="EN">
+        <seg>#  you will need to inject these into each test</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115407Z" creationid="nacyot" creationdate="20140313T115407Z">
+        <seg># 테스트 시에도 이것들을 주입해야합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#  you would need to inject these into each test</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122841Z" creationid="nacyot" creationdate="20140313T122841Z">
+        <seg>// 테스트 시에도 이것들을 주입해야합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg># Add specs</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115417Z" creationid="nacyot" creationdate="20140313T115415Z">
+        <seg># 스펙 추가하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg># AngularJS Example Applications</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130006Z" creationid="nacyot" creationdate="20140313T130006Z">
+        <seg># 앵귤러JS 예제 어플리케이션</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg># Create directive</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122732Z" creationid="nacyot" creationdate="20140313T122732Z">
+        <seg># 지시자 만들기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg># Initialize the controller and scope</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115231Z" creationid="nacyot" creationdate="20140313T115216Z">
+        <seg># 컨트롤러와 스코프(scope) 초기화</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg># Load the controller's module</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115247Z" creationid="nacyot" creationdate="20140313T115218Z">
+        <seg># 컨트롤러의 모듈 읽어오기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg># Load the directive's module</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122818Z" creationid="nacyot" creationdate="20140313T122805Z">
+        <seg># 디렉티브의 모듈 읽어오기 @@@</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg># Make sure CoffeeScript doesn't return anything</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115315Z" creationid="nacyot" creationdate="20140313T115315Z">
+        <seg># 커피스크립트 상에서 어떤 것도 리턴하지 않음에 주목하세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg># More recently it is: Controller 'ngModel', required by directive 'myDir', can't be found!</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123519Z" creationid="nacyot" creationdate="20140313T123503Z">
+        <seg># 최근 버전에서는 "'myDir' 지시자에서 요구하는 'ngModel' 컨트롤러를 찾을 수 없습니다(Controller 'ngModel', required by directive 'myDir', can't be found!)"라는 에러를 발생시킵니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg># Note: older versions of Angular throw this error as: 'No controller: ngModel'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123353Z" creationid="nacyot" creationdate="20140313T123353Z">
+        <seg># 참고 : 이전 버전의 앵귤러JS에서는 'No controller: ngModel'이라는 에러를 발생시켰습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg># PULL REQUEST WELCOME!</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T120149Z" creationid="nacyot" creationdate="20140313T120131Z">
+        <seg># 풀리퀘스트 환영합니다!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg># Reset data each time</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122830Z" creationid="nacyot" creationdate="20140313T122830Z">
+        <seg># 매 번 실행시 데이터 재설정</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg># Return</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122754Z" creationid="nacyot" creationdate="20140313T122748Z">
+        <seg># 리턴</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg># Setup scope state</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122724Z" creationid="nacyot" creationdate="20140313T122724Z">
+        <seg># 스코프(scope) 상태 설정</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg># Take the first one</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131551Z" creationid="nacyot" creationdate="20140313T131551Z">
+        <seg># Take the first one</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## A / B Testing AngularJS</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T164546Z" creationid="nacyot" creationdate="20140311T164546Z">
+        <seg>## AngularJS A / B 테스트</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## Coverage Threshold Enforcement for AngularJS</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121414Z" creationid="nacyot" creationdate="20140313T121411Z">
+        <seg>## 테스트 커버리지 일정 수준 이상으로 강제하기 @@@</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## End-to-End Testing AngularJS</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123751Z" creationid="nacyot" creationdate="20140313T123751Z">
+        <seg>## 앵귤러JS 엔드 투 엔드(E2E) 테스트</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## Performance Testing AngularJS</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140312T124722Z" creationid="nacyot" creationdate="20140312T124722Z">
+        <seg>	</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## Unit Testing AngularJS Directives</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122442Z" creationid="nacyot" creationdate="20140313T122351Z">
+        <seg>## 앵귤러JS 디렉티브 유닛 테스트</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>### Angular Scenario [&amp;#8593;](#end-to-end-testing-frameworks)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123832Z" creationid="nacyot" creationdate="20140313T123832Z">
+        <seg>### 앵귤러 시나리오(Angular Scenario) [&amp;#8593;](#end-to-end-testing-frameworks)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>### CoffeeScript</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122003Z" creationid="nacyot" creationdate="20140313T122003Z">
+        <seg>### 커피스크립트(CoffeeScript)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>### JavaScript</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121138Z" creationid="nacyot" creationdate="20140313T121138Z">
+        <seg>### 자바스크립트</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>### What is working well for you?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T165459Z" creationid="nacyot" creationdate="20140311T165456Z">
+        <seg>### 좋은 패턴을 알고 계시나요?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### Configure Scenario Runner</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T124417Z" creationid="nacyot" creationdate="20140313T124417Z">
+        <seg>#### 시나리오 실행기 설정하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### Install Dependencies</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121148Z" creationid="nacyot" creationdate="20140313T121148Z">
+        <seg>#### 의존 라이브러리 설치하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### My app should:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T124902Z" creationid="nacyot" creationdate="20140313T124902Z">
+        <seg>#### My app은:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### My directive should:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123158Z" creationid="nacyot" creationdate="20140313T123158Z">
+        <seg>#### 이 디렉티브는:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### Order matters!</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121830Z" creationid="nacyot" creationdate="20140313T121753Z">
+        <seg>#### 실행 순서!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#### Testing Patterns</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T124533Z" creationid="nacyot" creationdate="20140313T124533Z">
+        <seg>#### 테스트 패턴</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>##### End-to-End Testing Frameworks</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123802Z" creationid="nacyot" creationdate="20140313T123759Z">
+        <seg>##### End-to-End 테스트 프레임워크</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>##### Testing Patterns</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T164634Z" creationid="nacyot" creationdate="20140311T164634Z">
+        <seg>##### 테스트 패턴</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>###### [Example](../example) implementation of these testing patterns</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T170155Z" creationid="nacyot" creationdate="20140311T170155Z">
+        <seg>###### [예제](../example)는 이 패턴들을 기반으로 만들어졌습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#####have a `default route` configured [&amp;#8593;](#testing-patterns)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T124924Z" creationid="nacyot" creationdate="20140313T124924Z">
+        <seg>##### `기본 라우트(default route)` 설정을 가지고 있어야한다[&amp;#8593;](#testing-patterns)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#####render the expected output [&amp;#8593;](#testing-patterns)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123701Z" creationid="nacyot" creationdate="20140313T123701Z">
+        <seg>##### 예상대로 렌더되어야한다. [&amp;#8593;](#testing-patterns)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#####throw error when ngModel attribute not defined [&amp;#8593;](#testing-patterns)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123235Z" creationid="nacyot" creationdate="20140313T123235Z">
+        <seg>##### ngModel 속성이 정의되어있지 않으면 에러를 발생시켜야한다 [&amp;#8593;](#testing-patterns)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>####Configure Coverage Thresholds Example</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121704Z" creationid="nacyot" creationdate="20140313T121704Z">
+        <seg>#### 커버리지 기준 설정 예제</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>####Configure Grunt Clean Example</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121746Z" creationid="nacyot" creationdate="20140313T121737Z">
+        <seg>#### 그런트(Grunt) 클린 설정 예제</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>####Configure Karma Coverage Example</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121339Z" creationid="nacyot" creationdate="20140313T121339Z">
+        <seg>#### 카르마 커버리지 설정 예제</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>####Suggested Controller Unit Test Setup [&amp;#8593;](#testing-patterns)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115200Z" creationid="nacyot" creationdate="20140313T115200Z">
+        <seg>#### 권장되는 컨트롤러 유닛 테스트 설정[&amp;#8593;](#testing-patterns)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>####Suggested Directive Unit Test Setup [&amp;#8593;](#testing-patterns)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122646Z" creationid="nacyot" creationdate="20140313T122646Z">
+        <seg>#### 권장되는 지시자 유닛 테스트 설정[&amp;#8593;](#testing-patterns)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>####Suggested Scenario Unit Test Setup [&amp;#8593;](#testing-patterns)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T124851Z" creationid="nacyot" creationdate="20140313T124838Z">
+        <seg>#### 권장하는 시나리오 유닛 테스트 설정 [&amp;#8593;](#testing-patterns)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>####Task Order Example</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121953Z" creationid="nacyot" creationdate="20140313T121810Z">
+        <seg>#### 태스크 순서(순서) 예제</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#$provide.value 'Name', new MockName()</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122836Z" creationid="nacyot" creationdate="20140313T122836Z">
+        <seg>#$provide.value 'Name', new MockName()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>#scope.$apply()</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122747Z" creationid="nacyot" creationdate="20140313T122747Z">
+        <seg>#scope.$apply()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>$provide.value 'mySvc', new MockMySvc()</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115256Z" creationid="nacyot" creationdate="20140313T115256Z">
+        <seg>$provide.value 'mySvc', new MockMySvc()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>$provide.value('mySvc', new MockMySvc());</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115500Z" creationid="nacyot" creationdate="20140313T115500Z">
+        <seg>$provide.value('mySvc', new MockMySvc());</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>$routeProvider</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125320Z" creationid="nacyot" creationdate="20140313T125320Z">
+        <seg>$routeProvider</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>$scope.myArray = [];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125432Z" creationid="nacyot" creationdate="20140313T125432Z">
+        <seg>$scope.myArray = [];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>$scope.myBoolean = true;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125432Z" creationid="nacyot" creationdate="20140313T125432Z">
+        <seg>$scope.myBoolean = true;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>$scope.myDate = new Date();</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125432Z" creationid="nacyot" creationdate="20140313T125432Z">
+        <seg>$scope.myDate = new Date();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>$scope.myMethod = function () {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125433Z" creationid="nacyot" creationdate="20140313T125433Z">
+        <seg>$scope.myMethod = function () {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>$scope.myNull = null;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125434Z" creationid="nacyot" creationdate="20140313T125434Z">
+        <seg>$scope.myNull = null;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>$scope.myNumber = 1337;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125434Z" creationid="nacyot" creationdate="20140313T125434Z">
+        <seg>$scope.myNumber = 1337;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>$scope.myObject = {};</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125435Z" creationid="nacyot" creationdate="20140313T125435Z">
+        <seg>$scope.myObject = {};</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>$scope.myRegExp = /\s/;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125435Z" creationid="nacyot" creationdate="20140313T125435Z">
+        <seg>$scope.myRegExp = /\s/;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>$scope.myString = 'test';</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125435Z" creationid="nacyot" creationdate="20140313T125435Z">
+        <seg>$scope.myString = 'test';</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>$scope.myThing = {};</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125431Z" creationid="nacyot" creationdate="20140313T125431Z">
+        <seg>$scope.myThing = {};</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>$scope.myUndefined = undefined;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125436Z" creationid="nacyot" creationdate="20140313T125436Z">
+        <seg>$scope.myUndefined = undefined;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>$scope: scope</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115409Z" creationid="nacyot" creationdate="20140313T115409Z">
+        <seg>$scope: scope</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>'$routeProvider',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125401Z" creationid="nacyot" creationdate="20140313T125401Z">
+        <seg>'$routeProvider',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>'*.js': 'coverage'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121506Z" creationid="nacyot" creationdate="20140313T121504Z">
+        <seg>'*.js': 'coverage'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>'../bower_components/angular-mocks/angular-mocks.js',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125745Z" creationid="nacyot" creationdate="20140313T125745Z">
+        <seg>'../bower_components/angular-mocks/angular-mocks.js',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>'../bower_components/angular-route/angular-route.js',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125745Z" creationid="nacyot" creationdate="20140313T125745Z">
+        <seg>'../bower_components/angular-route/angular-route.js',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>'../bower_components/angular-sanitize/angular-sanitize.js',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125746Z" creationid="nacyot" creationdate="20140313T125746Z">
+        <seg>'../bower_components/angular-sanitize/angular-sanitize.js',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>'../bower_components/angular/angular.js',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125745Z" creationid="nacyot" creationdate="20140313T125745Z">
+        <seg>'../bower_components/angular/angular.js',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>'../spec/*.js'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125101Z" creationid="nacyot" creationdate="20140313T125101Z">
+        <seg>'../spec/*.js'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>'Gruntfile.js',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125047Z" creationid="nacyot" creationdate="20140313T125047Z">
+        <seg>'Gruntfile.js',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>'app.js',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125747Z" creationid="nacyot" creationdate="20140313T125747Z">
+        <seg>'app.js',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>'clean:coverage',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121945Z" creationid="nacyot" creationdate="20140313T121945Z">
+        <seg>'clean:coverage',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>'coffeelint',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125211Z" creationid="nacyot" creationdate="20140313T125211Z">
+        <seg>'coffeelint',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>'complexity',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125211Z" creationid="nacyot" creationdate="20140313T125211Z">
+        <seg>'complexity',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>'coverage'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121946Z" creationid="nacyot" creationdate="20140313T121946Z">
+        <seg>'coverage'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>'javascript/*.js',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125048Z" creationid="nacyot" creationdate="20140313T125048Z">
+        <seg>'javascript/*.js',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>'jshint',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125211Z" creationid="nacyot" creationdate="20140313T125211Z">
+        <seg>'jshint',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>'karma',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121945Z" creationid="nacyot" creationdate="20140313T121945Z">
+        <seg>'karma',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>'mock.js',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125816Z" creationid="nacyot" creationdate="20140313T125816Z">
+        <seg>'mock.js',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>'ngRoute',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125308Z" creationid="nacyot" creationdate="20140313T125308Z">
+        <seg>'ngRoute',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>'ngSanitize'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125309Z" creationid="nacyot" creationdate="20140313T125309Z">
+        <seg>'ngSanitize'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>'spec.js'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125820Z" creationid="nacyot" creationdate="20140313T125820Z">
+        <seg>'spec.js'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>'use strict';</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125256Z" creationid="nacyot" creationdate="20140313T125256Z">
+        <seg>'use strict';</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>) isnt null</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131608Z" creationid="nacyot" creationdate="20140313T131608Z">
+        <seg>) isnt null</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>*</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130149Z" creationid="nacyot" creationdate="20140313T130149Z">
+        <seg>*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* *[pull request welcome!](../#contributing-test-patterns)*</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T170121Z" creationid="nacyot" creationdate="20140311T170121Z">
+        <seg>* *[풀리퀘스트로 알려주세요!](../#contributing-test-patterns)*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Contents</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T124656Z" creationid="nacyot" creationdate="20140313T124647Z">
+        <seg>* 렌더링된 결과는</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Copyright (c) 2010-2012 Google, Inc.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130142Z" creationid="nacyot" creationdate="20140313T130142Z">
+        <seg>* Copyright (c) 2010-2012 Google, Inc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Data type</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T165519Z" creationid="nacyot" creationdate="20140311T165519Z">
+        <seg>* 데이터 타입</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Git COMMIT-MSG hook for validating commit message</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130215Z" creationid="nacyot" creationdate="20140313T130215Z">
+        <seg>* Git COMMIT-MSG hook for validating commit message</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Have a good pattern?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T170105Z" creationid="nacyot" creationdate="20140311T170103Z">
+        <seg>* 좋은 패턴을 알고 계신가요?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Install [angular-scenario](https://github.com/angular/bower-angular-scenario) by running `bower install angular-scenario --save-dev`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T124401Z" creationid="nacyot" creationdate="20140313T124401Z">
+        <seg>* `bower install angular-scenario --save-dev` 명령어를 실행해 [angular-scenario](https://github.com/angular/bower-angular-scenario)를 실행합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Install [grunt-istanbul-coverage](https://github.com/daniellmb/grunt-istanbul-coverage) by running `npm install grunt-istanbul-coverage --save-dev`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121231Z" creationid="nacyot" creationdate="20140313T121231Z">
+        <seg>*  `npm install grunt-istanbul-coverage --save-dev` 명령어를 실행해서 [grunt-istanbul-coverage]를 설치(https://github.com/daniellmb/grunt-istanbul-coverage)합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Install [karma-coverage](https://github.com/karma-runner/karma-coverage) by running `npm install karma-coverage --save-dev`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121256Z" creationid="nacyot" creationdate="20140313T121256Z">
+        <seg>* `npm install karma-coverage --save-dev`를 실행해서 [karma-coverage](https://github.com/karma-runner/karma-coverage)를 설치합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Method use</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T114958Z" creationid="nacyot" creationdate="20140313T114958Z">
+        <seg>* 메소드 사용하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Modified from https://github.com/angular/angular.js/blob/master/validate-commit-msg.js</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130141Z" creationid="nacyot" creationdate="20140313T130141Z">
+        <seg>* Modified from https://github.com/angular/angular.js/blob/master/validate-commit-msg.js</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Routes</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T124547Z" creationid="nacyot" creationdate="20140313T124547Z">
+        <seg>* 라우트</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* See https://docs.google.com/document/d/1rk04jEuGfk9kYzfqCuOlPTSJw3hEDZJTBN5E5f1SALo/edit</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130217Z" creationid="nacyot" creationdate="20140313T130158Z">
+        <seg>* See https://docs.google.com/document/d/1rk04jEuGfk9kYzfqCuOlPTSJw3hEDZJTBN5E5f1SALo/edit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* When the model changes</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122620Z" creationid="nacyot" creationdate="20140313T122620Z">
+        <seg>* 모델이 변경되었을 때</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Angular Scenario](#angular-scenario-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123814Z" creationid="nacyot" creationdate="20140313T123803Z">
+        <seg>* [앵귤러 시나리오(Angular Scenario)](#angular-scenario-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Array](#attach-myarray-to-the-scope-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T165920Z" creationid="nacyot" creationdate="20140311T165659Z">
+        <seg>* [배열(Array)](#attach-myarray-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Boolean](#attach-myboolean-to-the-scope-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T165927Z" creationid="nacyot" creationdate="20140311T165803Z">
+        <seg>* [논리값(Boolean)](#attach-myboolean-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [CoffeeScript](coffeescript)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130015Z" creationid="nacyot" creationdate="20140313T130009Z">
+        <seg>* [커피스크립트(CoffeeScript)](coffeescript)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Date](#attach-mydate-to-the-scope-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T165930Z" creationid="nacyot" creationdate="20140311T165839Z">
+        <seg>* [날짜(Date)](#attach-mydate-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [JavaScript](javascript)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130019Z" creationid="nacyot" creationdate="20140313T130010Z">
+        <seg>* [자바스크립트(JavaScript)](javascript)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Method](#attach-mymethod-to-the-scope-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T165933Z" creationid="nacyot" creationdate="20140311T165844Z">
+        <seg>* [메소드(Method)](#attach-mymethod-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Null](#attach-mynull-to-the-scope-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T165938Z" creationid="nacyot" creationdate="20140311T165901Z">
+        <seg>* [널(Null)](#attach-mymethod-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Number](#attach-mynumber-to-the-scope-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T165950Z" creationid="nacyot" creationdate="20140311T165950Z">
+        <seg>* [숫자(Number)](#attach-mynumber-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Object](#attach-myobject-to-the-scope-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T165959Z" creationid="nacyot" creationdate="20140311T165959Z">
+        <seg>* [객체(Object)](#attach-myobject-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Protractor](#protractor-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123821Z" creationid="nacyot" creationdate="20140313T123803Z">
+        <seg>* [프로트렉터(Protractor)](#protractor-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [RegExp](#attach-myregexp-to-the-scope-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T170008Z" creationid="nacyot" creationdate="20140311T170008Z">
+        <seg>* [정규표현식(RegExp)](#attach-myregexp-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [String](#attach-mystring-to-the-scope-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T114941Z" creationid="nacyot" creationdate="20140311T170026Z">
+        <seg>* [문자열(String](#attach-mystring-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Suggested Setup](#suggested-controller-unit-test-setup-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T165515Z" creationid="nacyot" creationdate="20140311T165515Z">
+        <seg>* [권장하는 설정](#suggested-controller-unit-test-setup-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Suggested Setup](#suggested-controller-unit-test-setup-)
+* Data type</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T164825Z" creationid="nacyot" creationdate="20140311T164814Z">
+        <seg>* [권장하는 설정](#suggested-controller-unit-test-setup-)
+* 데이터 타입</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Suggested Setup](#suggested-directive-unit-test-setup-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122655Z" creationid="nacyot" creationdate="20140313T122609Z">
+        <seg>* [권정하는 설정](#suggested-directive-unit-test-setup-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Suggested Setup](#suggested-scenario-unit-test-setup-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T124542Z" creationid="nacyot" creationdate="20140313T124542Z">
+        <seg>* [권장하는 설정](#suggested-scenario-unit-test-setup-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Undefined](#expect-myundefined-to-be-undefined-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T114954Z" creationid="nacyot" creationdate="20140313T114929Z">
+        <seg>* [미정의(Undefined)](#expect-myundefined-to-be-undefined-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [should call method in same controller](#call-mymethod2-on-myctrl-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115054Z" creationid="nacyot" creationdate="20140313T115050Z">
+        <seg>* [같은 컨트롤러의 메소드를 호출해야한다](#call-mymethod2-on-myctrl-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [should call method on a service](#call-mymethod-on-myservice-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115103Z" creationid="nacyot" creationdate="20140313T115103Z">
+        <seg>* [서비스에서 메소드를 호출해야한다](#call-mymethod-on-myservice-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [should contain expected text](#should-contain-expected-text-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T124714Z" creationid="nacyot" creationdate="20140313T124618Z">
+        <seg>* [예상되는 텍스트를 포함해야한다](#should-contain-expected-text-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [should contain my directive attribute](#should-contain-my-directive-attribute-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T124759Z" creationid="nacyot" creationdate="20140313T124759Z">
+        <seg>* [직접 정의한 지시자 속성을 포함해야한다](#should-contain-my-directive-attribute-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [should contain my directive class name](#should-contain-my-directive-class-name-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T124813Z" creationid="nacyot" creationdate="20140313T124813Z">
+        <seg>* [직접 정의한 지시자 클래스 이름을 포함해야 한다.](#should-contain-my-directive-class-name-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [should contain my directive tag](#should-contain-my-directive-tag-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T124745Z" creationid="nacyot" creationdate="20140313T124639Z">
+        <seg>* [직접 정의한 지시자 태그를 포함해야한다](#should-contain-my-directive-tag-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [should return expected value](#mymethod-should-return-expected-value-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115025Z" creationid="nacyot" creationdate="20140313T115025Z">
+        <seg>* [기대하는 값을 리턴해야한다](#mymethod-should-return-expected-value-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>*/</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125255Z" creationid="nacyot" creationdate="20140313T125255Z">
+        <seg>*/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>*[pull request welcome!](../#contributing-test-patterns)*</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T164704Z" creationid="nacyot" creationdate="20140311T164704Z">
+        <seg>*[풀 리퀘스트를 보내주세요!](../#contributing-test-patterns)*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>--------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131617Z" creationid="nacyot" creationdate="20140313T131617Z">
+        <seg>--------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>-------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125945Z" creationid="nacyot" creationdate="20140313T125945Z">
+        <seg>-------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>--------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131425Z" creationid="nacyot" creationdate="20140313T131425Z">
+        <seg>--------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>--------------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131432Z" creationid="nacyot" creationdate="20140313T131432Z">
+        <seg>--------------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>---------------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125254Z" creationid="nacyot" creationdate="20140313T125254Z">
+        <seg>---------------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>----------------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125407Z" creationid="nacyot" creationdate="20140313T125407Z">
+        <seg>----------------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>--------------------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131600Z" creationid="nacyot" creationdate="20140313T131600Z">
+        <seg>--------------------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>---------------------------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130353Z" creationid="nacyot" creationdate="20140313T130353Z">
+        <seg>---------------------------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>------------------------------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131537Z" creationid="nacyot" creationdate="20140313T131537Z">
+        <seg>------------------------------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.concat(parseSection(filePath, section[1], section[2])) while (</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131607Z" creationid="nacyot" creationdate="20140313T131607Z">
+        <seg>.concat(parseSection(filePath, section[1], section[2])) while (</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.config([</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125401Z" creationid="nacyot" creationdate="20140313T125401Z">
+        <seg>.config([</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.constant('myConst', 42);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125650Z" creationid="nacyot" creationdate="20140313T125650Z">
+        <seg>.constant('myConst', 42);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.controller('myCtrl', ['$scope', '$http', 'mySvc',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125416Z" creationid="nacyot" creationdate="20140313T125416Z">
+        <seg>.controller('myCtrl', ['$scope', '$http', 'mySvc',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.directive('myDir', [function () {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125453Z" creationid="nacyot" creationdate="20140313T125453Z">
+        <seg>.directive('myDir', [function () {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.factory('mySvc', function factoryInit(myVal) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125541Z" creationid="nacyot" creationdate="20140313T125541Z">
+        <seg>.factory('mySvc', function factoryInit(myVal) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.filter('myFltr', [function () {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125519Z" creationid="nacyot" creationdate="20140313T125519Z">
+        <seg>.filter('myFltr', [function () {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.module('myApp', dependencies)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125400Z" creationid="nacyot" creationdate="20140313T125400Z">
+        <seg>.module('myApp', dependencies)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.otherwise({</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125347Z" creationid="nacyot" creationdate="20140313T125347Z">
+        <seg>.otherwise({</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.value('myVal', window.myVal);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125620Z" creationid="nacyot" creationdate="20140313T125620Z">
+        <seg>.value('myVal', window.myVal);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.when('/', {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125321Z" creationid="nacyot" creationdate="20140313T125321Z">
+        <seg>.when('/', {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.when('/about', {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125345Z" creationid="nacyot" creationdate="20140313T125345Z">
+        <seg>.when('/about', {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>/*</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125437Z" creationid="nacyot" creationdate="20140313T125437Z">
+        <seg>/*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>/**</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125215Z" creationid="nacyot" creationdate="20140313T125215Z">
+        <seg>/**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>//  you would need to inject these into each test</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115512Z" creationid="nacyot" creationdate="20140313T115512Z">
+        <seg>// 테스트 시에도 이것들을 주입해야합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// - allow only specific scopes (eg.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130230Z" creationid="nacyot" creationdate="20140313T130230Z">
+        <seg>// - allow only specific scopes (eg.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// - auto add empty line after subject ?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130231Z" creationid="nacyot" creationdate="20140313T130231Z">
+        <seg>// - auto add empty line after subject ?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// - auto correct first letter of the subject to lower case ?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130231Z" creationid="nacyot" creationdate="20140313T130231Z">
+        <seg>// - auto correct first letter of the subject to lower case ?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// - auto correct the type to lower case ?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130236Z" creationid="nacyot" creationdate="20140313T130236Z">
+        <seg>// - auto correct the type to lower case ?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// - auto correct typos in type ?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130233Z" creationid="nacyot" creationdate="20140313T130233Z">
+        <seg>// - auto correct typos in type ?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// - auto remove empty () ?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130231Z" creationid="nacyot" creationdate="20140313T130231Z">
+        <seg>// - auto remove empty () ?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// - store incorrect messages, so that we can learn</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130233Z" creationid="nacyot" creationdate="20140313T130233Z">
+        <seg>// - store incorrect messages, so that we can learn</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// ...</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121431Z" creationid="nacyot" creationdate="20140313T121431Z">
+        <seg>// ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Add specs</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115517Z" creationid="nacyot" creationdate="20140313T115517Z">
+        <seg>// Add specs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Call service method</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125436Z" creationid="nacyot" creationdate="20140313T125436Z">
+        <seg>// Call service method</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Configure app</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125319Z" creationid="nacyot" creationdate="20140313T125319Z">
+        <seg>// 어플리케이션 설정</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Continuous Integration mode</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125942Z" creationid="nacyot" creationdate="20140313T125929Z">
+        <seg>// 지속적 통합(Continuous Integration) 모드, 테스트 실행하고 종료하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Create app module and configure it</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125358Z" creationid="nacyot" creationdate="20140313T125358Z">
+        <seg>// 어플리케이션 모듈을 생성하고 설정</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Create directive</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122930Z" creationid="nacyot" creationdate="20140313T122924Z">
+        <seg>// 지시자 만들기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Declare module dependencies</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125307Z" creationid="nacyot" creationdate="20140313T125307Z">
+        <seg>// 의존성 있는 모듈을 선언</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Define My Constant</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125648Z" creationid="nacyot" creationdate="20140313T125648Z">
+        <seg>// 상수 정의하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Define My Controller</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125415Z" creationid="nacyot" creationdate="20140313T125415Z">
+        <seg>// 컨트롤러 정의</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Define My Directive</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125452Z" creationid="nacyot" creationdate="20140313T125452Z">
+        <seg>// 지시자 선언하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Define My Filter</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125517Z" creationid="nacyot" creationdate="20140313T125517Z">
+        <seg>// 필터 정의하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Initialize the controller and scope</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115446Z" creationid="nacyot" creationdate="20140313T115446Z">
+        <seg>// 컨트롤러와 스코프(scope) 초기화</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// JavaScript</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131904Z" creationid="nacyot" creationdate="20140313T131900Z">
+        <seg>// 자바스크립트(JavaScript)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Load the controller's module</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115457Z" creationid="nacyot" creationdate="20140313T115457Z">
+        <seg>// 컨트롤러의 모듈 읽어오기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Load the directive's module</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122938Z" creationid="nacyot" creationdate="20140313T122938Z">
+        <seg>// 디렉티브의 모듈 읽어오기 @@@</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Methods</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125951Z" creationid="nacyot" creationdate="20140313T125951Z">
+        <seg>// 메소드</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// More recently it is: Controller 'ngModel', required by directive 'myDir', can't be found!</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123551Z" creationid="nacyot" creationdate="20140313T123551Z">
+        <seg>// 최근 버전에서는 "'myDir' 지시자에서 요구하는 'ngModel' 컨트롤러를 찾을 수 없습니다(Controller 'ngModel', required by directive 'myDir', can't be found!)"라는 에러를 발생시킵니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Note: older versions of Angular throw this error as: 'No controller: ngModel'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123547Z" creationid="nacyot" creationdate="20140313T123547Z">
+        <seg>// 참고 : 이전 버전의 앵귤러JS에서는 'No controller: ngModel'이라는 에러를 발생시켰습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// PULL REQUEST WELCOME!</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T120148Z" creationid="nacyot" creationdate="20140313T120148Z">
+        <seg>// 풀리퀘스트 환영합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Reset data each time</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122947Z" creationid="nacyot" creationdate="20140313T122939Z">
+        <seg>// 매 번 실행시 데이터 재설정</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Return</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122934Z" creationid="nacyot" creationdate="20140313T122934Z">
+        <seg>// Return</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Setup scope state</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122922Z" creationid="nacyot" creationdate="20140313T122922Z">
+        <seg>// 스코프(scope) 상태 설정</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Some more ideas, do want anything like this ?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130236Z" creationid="nacyot" creationdate="20140313T130236Z">
+        <seg>// Some more ideas, do want anything like this ?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Test in these browsers</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125903Z" creationid="nacyot" creationdate="20140313T125903Z">
+        <seg>// 테스트할 브라우저 지정</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Use the same partial views for all languages</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125344Z" creationid="nacyot" creationdate="20140313T125344Z">
+        <seg>// 모든 언어에서 같은 파셜 뷰 사용</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// app code</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125806Z" creationid="nacyot" creationdate="20140313T125806Z">
+        <seg>// 어플리케이션 코드</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// app deps</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125800Z" creationid="nacyot" creationdate="20140313T125800Z">
+        <seg>// 사용하는 라이브러리</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// change to html if you need details</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121605Z" creationid="nacyot" creationdate="20140313T121602Z">
+        <seg>// 자세한 출력 결과가 필요하다면 'html'을 사용합니다</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// configure coverage reporter</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121539Z" creationid="nacyot" creationdate="20140313T121539Z">
+        <seg>// 커버리지 리포터 설정</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// configure which files should be tested for coverage</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121503Z" creationid="nacyot" creationdate="20140313T121503Z">
+        <seg>// 어떤 파일이 커버리지 측정에 사용될 지 지정합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// frameworks to use</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125721Z" creationid="nacyot" creationdate="20140313T125721Z">
+        <seg>// 테스트에 사용할 프레임워크</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// gitx does not display it</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130207Z" creationid="nacyot" creationdate="20140313T130207Z">
+        <seg>// gitx does not display it</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// hacky start if not run by jasmine :-D</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130240Z" creationid="nacyot" creationdate="20140313T130240Z">
+        <seg>// hacky start if not run by jasmine :-D</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// http://en.wikipedia.org/wiki/Cyclomatic_complexity</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125159Z" creationid="nacyot" creationdate="20140313T125159Z">
+        <seg>// http://en.wikipedia.org/wiki/Cyclomatic_complexity</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// http://en.wikipedia.org/wiki/Halstead_complexity_measures</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125201Z" creationid="nacyot" creationdate="20140313T125201Z">
+        <seg>// http://en.wikipedia.org/wiki/Halstead_complexity_measures</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// http://gitx.lighthouseapp.com/projects/17830/tickets/294-feature-display-hook-error-message-when-hook-fails</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130210Z" creationid="nacyot" creationdate="20140313T130210Z">
+        <seg>// http://gitx.lighthouseapp.com/projects/17830/tickets/294-feature-display-hook-error-message-when-hook-fails</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// https://groups.google.com/group/gitx/browse_thread/thread/a03bcab60844b812</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130211Z" creationid="nacyot" creationdate="20140313T130211Z">
+        <seg>// https://groups.google.com/group/gitx/browse_thread/thread/a03bcab60844b812</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// level of logging</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125852Z" creationid="nacyot" creationdate="20140313T125852Z">
+        <seg>// 로깅 레벨 설정</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// list of files / patterns to load in the browser</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125741Z" creationid="nacyot" creationdate="20140313T125741Z">
+        <seg>// 브라우저에서 읽어올 파일 패턴</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// publish for testing</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130239Z" creationid="nacyot" creationdate="20140313T130239Z">
+        <seg>// publish for testing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// return api</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125610Z" creationid="nacyot" creationdate="20140313T125610Z">
+        <seg>// api 리턴</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// test results reporter to use</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125838Z" creationid="nacyot" creationdate="20140313T125838Z">
+        <seg>// 테스트 결과 출력에 사용할 리포터 지정</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// test results reporters to use</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121447Z" creationid="nacyot" creationdate="20140313T121447Z">
+        <seg>// 테스트 결과 출력에 사용할 리포터 지정</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// web server port</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125846Z" creationid="nacyot" creationdate="20140313T125846Z">
+        <seg>// 웹 서버 포트 지정</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>//$provide.value('Name', new MockName());</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122950Z" creationid="nacyot" creationdate="20140313T122950Z">
+        <seg>//$provide.value('Name', new MockName());</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>//list of source files to analyze</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125046Z" creationid="nacyot" creationdate="20140313T125046Z">
+        <seg>// 분석하고자 하는 파일 리스트</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>//scope.$apply();</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122933Z" creationid="nacyot" creationdate="20140313T122933Z">
+        <seg>//scope.$apply();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>//type: 'html',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121606Z" creationid="nacyot" creationdate="20140313T121606Z">
+        <seg>//type: 'html',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>1.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121757Z" creationid="nacyot" creationdate="20140313T121757Z">
+        <seg>1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>2.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121758Z" creationid="nacyot" creationdate="20140313T121758Z">
+        <seg>2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>3.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121759Z" creationid="nacyot" creationdate="20140313T121759Z">
+        <seg>3.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>=========================</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131424Z" creationid="nacyot" creationdate="20140313T131424Z">
+        <seg>=========================</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>==========================</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130351Z" creationid="nacyot" creationdate="20140313T130351Z">
+        <seg>==========================</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>=============================</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125237Z" creationid="nacyot" creationdate="20140313T125237Z">
+        <seg>=============================</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Angular Scenario is a simple browser based end to end test runner.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123857Z" creationid="nacyot" creationdate="20140313T123857Z">
+        <seg>앵귤러 시나리오는 브라우저 기반의 간단한 엔드 투 엔드 테스트 실행기입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Application Constants</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125624Z" creationid="nacyot" creationdate="20140313T125624Z">
+        <seg>어플리케이션 상수</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Application Controllers</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125406Z" creationid="nacyot" creationdate="20140313T125406Z">
+        <seg>어플리케이션 컨트롤러</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Application Directives</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125446Z" creationid="nacyot" creationdate="20140313T125441Z">
+        <seg>어플리케이션 지시자</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Application Filters</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125500Z" creationid="nacyot" creationdate="20140313T125500Z">
+        <seg>어플리케이션 필터</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Application Services</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125524Z" creationid="nacyot" creationdate="20140313T125524Z">
+        <seg>어플리케이션 서비스</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>End-to-end Test Runner</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125017Z" creationid="nacyot" creationdate="20140313T125017Z">
+        <seg>엔드 투 엔드(E2E) 테스트 실행기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Example AngularJS Application</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125236Z" creationid="nacyot" creationdate="20140313T125230Z">
+        <seg>앵귤러JS 예제 어플리케이션</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>First `clean` the coverage folder to remove any previous coverage files.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121850Z" creationid="nacyot" creationdate="20140313T121850Z">
+        <seg>먼저 `clean` 명령어로 이전에 생성된 커버리지 관련 파일들을 삭제합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>First configure karma to create coverage files ([full example](../example/javascript/karma.conf.js)).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121325Z" creationid="nacyot" creationdate="20140313T121325Z">
+        <seg>먼저 커버리지 파일을 생성하기 위해 karma를 설정합니다. ([full example](../example/javascript/karma.conf.js)).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you want more than just insight into code coverage, but a way to enforce threshold limits as well, this page is for you.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121427Z" creationid="nacyot" creationdate="20140313T121427Z">
+        <seg>ㅎ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>JavaScript AngularJS Example Application</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125703Z" creationid="nacyot" creationdate="20140313T125703Z">
+        <seg>자바스크립트 앵귤러JS 예제 어플리케이션</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Next add a few lines to your grunt file to configure your thresholds ([full example](../example/Gruntfile.js)).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121652Z" creationid="nacyot" creationdate="20140313T121652Z">
+        <seg>다음으로 커버리지 기준을 정하기 위해 다음 몇 줄을 그런트(Grunt) 설정 파일에 추가해줍니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Run the `coverage` task to analyze and enforce your threshold limits.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121942Z" creationid="nacyot" creationdate="20140313T121935Z">
+        <seg>`coverage` 태스크를 실행해 테스트 결과가 커버리지 기준을 만족하는지 분석합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Then run `karma` to execute your unit tests and generate a new coverage file.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121905Z" creationid="nacyot" creationdate="20140313T121905Z">
+        <seg>`karma`를 실행시켜 유닛 테스트를 실행하고 커버리지 파일을 생성합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>There isn't really anything to configure you only need to create a file that includes the runner and the scenarios you want to run ([example file](../example/javascript/e2e.html)).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T124517Z" creationid="nacyot" creationdate="20140313T124517Z">
+        <seg>설정해야할 부분이 따로 있지는 않습니다. 그저 파일을 하나 만들고 실행기를 로드하고 실행하고자 하는 시나리오를 불러오면 됩니다([example file](../example/javascript/e2e.html)).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Unfortunately karma-coverage [doesn't support CoffeeScript yet](https://github.com/karma-runner/karma-coverage/pull/12), but it's only a pull request away if you have the time to implement it *hint hint* :)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122316Z" creationid="nacyot" creationdate="20140313T122237Z">
+        <seg>아직 karma-coverage는 [커피스크립트를 지원하지 않습니다](https://github.com/karma-runner/karma-coverage/pull/12) @@@</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>]);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121946Z" creationid="nacyot" creationdate="20140313T121946Z">
+        <seg>]);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>],</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125124Z" creationid="nacyot" creationdate="20140313T125124Z">
+        <seg>],</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125309Z" creationid="nacyot" creationdate="20140313T125309Z">
+        <seg>];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115420Z" creationid="nacyot" creationdate="20140313T115420Z">
+        <seg>```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>```CoffeeScript</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T132010Z" creationid="nacyot" creationdate="20140313T132010Z">
+        <seg>```CoffeeScript</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>```JavaScript</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131855Z" creationid="nacyot" creationdate="20140313T131855Z">
+        <seg>```JavaScript</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>all: 'coffeescript/*.coffee',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125147Z" creationid="nacyot" creationdate="20140313T125147Z">
+        <seg>all: 'coffeescript/*.coffee',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>all: [</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125047Z" creationid="nacyot" creationdate="20140313T125047Z">
+        <seg>all: [</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>and match.length &gt; 1</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131555Z" creationid="nacyot" creationdate="20140313T131555Z">
+        <seg>and match.length &gt; 1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>angular</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125359Z" creationid="nacyot" creationdate="20140313T125359Z">
+        <seg>angular</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>angular.module('myApp')</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125415Z" creationid="nacyot" creationdate="20140313T125415Z">
+        <seg>angular.module('myApp')</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>api.myMethod = function () {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125551Z" creationid="nacyot" creationdate="20140313T125551Z">
+        <seg>api.myMethod = function () {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>beforeEach -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115217Z" creationid="nacyot" creationdate="20140313T115217Z">
+        <seg>beforeEach -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>beforeEach(function () {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115450Z" creationid="nacyot" creationdate="20140313T115450Z">
+        <seg>beforeEach(function () {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>block = jasmine.getEnv().currentSpec.codeBlock</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131634Z" creationid="nacyot" creationdate="20140313T131634Z">
+        <seg>block = jasmine.getEnv().currentSpec.codeBlock</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>blockCount = (if match then match.length else 0)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131609Z" creationid="nacyot" creationdate="20140313T131609Z">
+        <seg>blockCount = (if match then match.length else 0)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>blocksInFile</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131616Z" creationid="nacyot" creationdate="20140313T131616Z">
+        <seg>blocksInFile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>blocksInFile = []</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131605Z" creationid="nacyot" creationdate="20140313T131605Z">
+        <seg>blocksInFile = []</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>blocksInFile = blocksInFile</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131607Z" creationid="nacyot" creationdate="20140313T131607Z">
+        <seg>blocksInFile = blocksInFile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>blocksInSection</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131559Z" creationid="nacyot" creationdate="20140313T131559Z">
+        <seg>blocksInSection</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>blocksInSection = []</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131549Z" creationid="nacyot" creationdate="20140313T131549Z">
+        <seg>blocksInSection = []</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>blocksInSection.push</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131556Z" creationid="nacyot" creationdate="20140313T131556Z">
+        <seg>blocksInSection.push</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>branches: 100,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121708Z" creationid="nacyot" creationdate="20140313T121708Z">
+        <seg>branches: 100,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>browser().navigateTo '#/about'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T124941Z" creationid="nacyot" creationdate="20140313T124941Z">
+        <seg>browser().navigateTo '#/about'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>browser().navigateTo '#/foo-bar-bas'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T124939Z" creationid="nacyot" creationdate="20140313T124939Z">
+        <seg>browser().navigateTo '#/foo-bar-bas'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>browser().navigateTo 'index.html'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T124938Z" creationid="nacyot" creationdate="20140313T124936Z">
+        <seg>browser().navigateTo 'index.html'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>browsers: ['PhantomJS'],</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125905Z" creationid="nacyot" creationdate="20140313T125905Z">
+        <seg>browsers: ['PhantomJS'],</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>chore: true,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130205Z" creationid="nacyot" creationdate="20140313T130205Z">
+        <seg>chore: true,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>clean: {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121726Z" creationid="nacyot" creationdate="20140313T121726Z">
+        <seg>clean: {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>coffee: {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125204Z" creationid="nacyot" creationdate="20140313T125204Z">
+        <seg>coffee: {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>coffeelint: {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125145Z" creationid="nacyot" creationdate="20140313T125145Z">
+        <seg>coffeelint: {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>compile = $compile</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122846Z" creationid="nacyot" creationdate="20140313T122846Z">
+        <seg>compile = $compile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>compile = $compile;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122954Z" creationid="nacyot" creationdate="20140313T122954Z">
+        <seg>compile = $compile;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>complexity: {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125150Z" creationid="nacyot" creationdate="20140313T125150Z">
+        <seg>complexity: {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>config</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125402Z" creationid="nacyot" creationdate="20140313T125402Z">
+        <seg>config</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>config.set({</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121431Z" creationid="nacyot" creationdate="20140313T121431Z">
+        <seg>config.set({</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>configFile: 'coffeescript/karma.conf.coffee'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125204Z" creationid="nacyot" creationdate="20140313T125204Z">
+        <seg>configFile: 'coffeescript/karma.conf.coffee'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>configFile: 'javascript/karma.conf.js'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125206Z" creationid="nacyot" creationdate="20140313T125206Z">
+        <seg>configFile: 'javascript/karma.conf.js'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>console.error('INVALID COMMIT MSG: ' + util.format.apply(null, arguments));</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130211Z" creationid="nacyot" creationdate="20140313T130211Z">
+        <seg>console.error('INVALID COMMIT MSG: ' + util.format.apply(null, arguments));</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>console.log('Commit message validation ignored.');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130222Z" creationid="nacyot" creationdate="20140313T130222Z">
+        <seg>console.log('Commit message validation ignored.');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>contents = lines.join('\n')</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131553Z" creationid="nacyot" creationdate="20140313T131553Z">
+        <seg>contents = lines.join('\n')</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>contents: contents</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131558Z" creationid="nacyot" creationdate="20140313T131558Z">
+        <seg>contents: contents</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>controller: 'myCtrl'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125344Z" creationid="nacyot" creationdate="20140313T125344Z">
+        <seg>controller: 'myCtrl'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>coverage: 'coverage/*'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121726Z" creationid="nacyot" creationdate="20140313T121726Z">
+        <seg>coverage: 'coverage/*'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>coverage: '{,*/}/coverage/*'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125207Z" creationid="nacyot" creationdate="20140313T125207Z">
+        <seg>coverage: '{,*/}/coverage/*'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>coverage: {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121706Z" creationid="nacyot" creationdate="20140313T121706Z">
+        <seg>coverage: {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>coverageReporter: {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121540Z" creationid="nacyot" creationdate="20140313T121540Z">
+        <seg>coverageReporter: {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>createDirective = (data, template) -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122703Z" creationid="nacyot" creationdate="20140313T122703Z">
+        <seg>createDirective = (data, template) -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>createDirective null, '&lt;my-dir&gt;&lt;/my-dir&gt;'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123317Z" creationid="nacyot" creationdate="20140313T123317Z">
+        <seg>createDirective null, '&lt;my-dir&gt;&lt;/my-dir&gt;'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>createDirective(null, '&lt;my-dir&gt;&lt;/my-dir&gt;');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123539Z" creationid="nacyot" creationdate="20140313T123539Z">
+        <seg>createDirective(null, '&lt;my-dir&gt;&lt;/my-dir&gt;');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>cyclomatic: 8,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125200Z" creationid="nacyot" creationdate="20140313T125200Z">
+        <seg>cyclomatic: 8,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>defaultData = 42</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122831Z" creationid="nacyot" creationdate="20140313T122831Z">
+        <seg>defaultData = 42</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>defaultData = 42;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122940Z" creationid="nacyot" creationdate="20140313T122940Z">
+        <seg>defaultData = 42;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>desc = match[1] if match?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131555Z" creationid="nacyot" creationdate="20140313T131555Z">
+        <seg>desc = match[1] if match?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>desc: desc</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131557Z" creationid="nacyot" creationdate="20140313T131557Z">
+        <seg>desc: desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>describe 'Controller: myCtrl', -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115215Z" creationid="nacyot" creationdate="20140313T115215Z">
+        <seg>describe 'Controller: myCtrl', -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>describe 'Directive: myDir', -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122658Z" creationid="nacyot" creationdate="20140313T122658Z">
+        <seg>describe 'Directive: myDir', -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>describe 'My App', -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T124853Z" creationid="nacyot" creationdate="20140313T124853Z">
+        <seg>describe 'My App', -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>describe 'default route', -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T124928Z" creationid="nacyot" creationdate="20140313T124928Z">
+        <seg>describe 'default route', -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>describe 'when created', -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123015Z" creationid="nacyot" creationdate="20140313T122854Z">
+        <seg>describe '만들어졌을 때', -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>describe 'when the model changes', -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123109Z" creationid="nacyot" creationdate="20140313T122906Z">
+        <seg>describe '모델이 바뀌었을 때', -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>describe('Controller: myCtrl', function () {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115433Z" creationid="nacyot" creationdate="20140313T115433Z">
+        <seg>describe('Controller: myCtrl', function () {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>describe('Directive: myDir', function () {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122914Z" creationid="nacyot" creationdate="20140313T122914Z">
+        <seg>describe('Directive: myDir', function () {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>describe('My App', function () {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T124855Z" creationid="nacyot" creationdate="20140313T124855Z">
+        <seg>describe('My App', function () {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>describe('default route', function () {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T124949Z" creationid="nacyot" creationdate="20140313T124949Z">
+        <seg>describe('기본 라우트', function () {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>describe('when created', function () {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123030Z" creationid="nacyot" creationdate="20140313T123005Z">
+        <seg>describe('만들어졌을 때', function () {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>describe('when the model changes', function () {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123052Z" creationid="nacyot" creationdate="20140313T123052Z">
+        <seg>describe('모델이 바뀌었을 때', function () {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>dir: 'coverage'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121608Z" creationid="nacyot" creationdate="20140313T121608Z">
+        <seg>dir: 'coverage'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>dir: 'coverage',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121710Z" creationid="nacyot" creationdate="20140313T121710Z">
+        <seg>dir: 'coverage',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>docs: true,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130204Z" creationid="nacyot" creationdate="20140313T130204Z">
+        <seg>docs: true,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>element = createDirective()</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123718Z" creationid="nacyot" creationdate="20140313T123718Z">
+        <seg>element = createDirective()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>element = createDirective();</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123730Z" creationid="nacyot" creationdate="20140313T123730Z">
+        <seg>element = createDirective();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>element = scope = compile = defaultData = null</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122659Z" creationid="nacyot" creationdate="20140313T122659Z">
+        <seg>element = scope = compile = defaultData = null</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>elm</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122749Z" creationid="nacyot" creationdate="20140313T122749Z">
+        <seg>elm</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>elm = compile(template or validTemplate) scope</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122733Z" creationid="nacyot" creationdate="20140313T122733Z">
+        <seg>elm = compile(template or validTemplate) scope</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>elm = compile(template || validTemplate)(scope);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122931Z" creationid="nacyot" creationdate="20140313T122931Z">
+        <seg>elm = compile(template || validTemplate)(scope);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>error('"%s" is not allowed type !', type);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130228Z" creationid="nacyot" creationdate="20140313T130228Z">
+        <seg>error('"%s" is not allowed type !', type);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>error('does not match "&lt;type&gt;(&lt;scope&gt;): &lt;subject&gt;" !</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130226Z" creationid="nacyot" creationdate="20140313T130226Z">
+        <seg>error('does not match "&lt;type&gt;(&lt;scope&gt;): &lt;subject&gt;" !</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>error('is longer than %d characters !', MAX_LENGTH);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130223Z" creationid="nacyot" creationdate="20140313T130223Z">
+        <seg>error('is longer than %d characters !', MAX_LENGTH);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>errorsOnly: false,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125158Z" creationid="nacyot" creationdate="20140313T125158Z">
+        <seg>errorsOnly: false,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(!!myCtrl).toBe yes</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115411Z" creationid="nacyot" creationdate="20140313T115411Z">
+        <seg>expect(!!myCtrl).toBe yes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(!!myCtrl).toBe(true);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115516Z" creationid="nacyot" creationdate="20140313T115516Z">
+        <seg>expect(!!myCtrl).toBe(true);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(browser().location().url()).toBe '/'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T124938Z" creationid="nacyot" creationdate="20140313T124938Z">
+        <seg>expect(browser().location().url()).toBe '/'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(browser().location().url()).toBe '/about'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T124941Z" creationid="nacyot" creationdate="20140313T124941Z">
+        <seg>expect(browser().location().url()).toBe '/about'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(element.text()).toBe 'this is my directive'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123719Z" creationid="nacyot" creationdate="20140313T123719Z">
+        <seg>expect(element.text()).toBe 'this is my directive'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(invalidTemplate).toThrow()</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123520Z" creationid="nacyot" creationdate="20140313T123520Z">
+        <seg>expect(invalidTemplate).toThrow()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(invalidTemplate).toThrow();</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123552Z" creationid="nacyot" creationdate="20140313T123552Z">
+        <seg>expect(invalidTemplate).toThrow();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(mySvc.myMethod).toHaveBeenCalledWith jasmine.any(Object)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121117Z" creationid="nacyot" creationdate="20140313T121117Z">
+        <seg>expect(mySvc.myMethod).toHaveBeenCalledWith jasmine.any(Object)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(mySvc.myMethod).toHaveBeenCalledWith(jasmine.any(Object));</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121121Z" creationid="nacyot" creationdate="20140313T121121Z">
+        <seg>expect(mySvc.myMethod).toHaveBeenCalledWith(jasmine.any(Object));</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(mySvc.myMethod.callCount).toBe 1</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121116Z" creationid="nacyot" creationdate="20140313T121116Z">
+        <seg>expect(mySvc.myMethod.callCount).toBe 1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(mySvc.myMethod.callCount).toBe(1);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121118Z" creationid="nacyot" creationdate="20140313T121118Z">
+        <seg>expect(mySvc.myMethod.callCount).toBe(1);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(result).toBe('Not implemented')</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T120102Z" creationid="nacyot" creationdate="20140313T120102Z">
+        <seg>expect(result).toBe('Not implemented')</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(result).toBe('Not implemented');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T120105Z" creationid="nacyot" creationdate="20140313T120105Z">
+        <seg>expect(result).toBe('Not implemented');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(scope.myArray instanceof Array).toBe true</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115722Z" creationid="nacyot" creationdate="20140313T115722Z">
+        <seg>expect(scope.myArray instanceof Array).toBe true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(scope.myArray instanceof Array).toBe(true);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115721Z" creationid="nacyot" creationdate="20140313T115721Z">
+        <seg>expect(scope.myArray instanceof Array).toBe(true);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(scope.myDate instanceof Date).toBe true</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115735Z" creationid="nacyot" creationdate="20140313T115735Z">
+        <seg>expect(scope.myDate instanceof Date).toBe true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(scope.myDate instanceof Date).toBe(true);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115737Z" creationid="nacyot" creationdate="20140313T115737Z">
+        <seg>expect(scope.myDate instanceof Date).toBe(true);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(scope.myNull).toBe null</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115742Z" creationid="nacyot" creationdate="20140313T115742Z">
+        <seg>expect(scope.myNull).toBe null</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(scope.myNull).toBe(null);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115744Z" creationid="nacyot" creationdate="20140313T115744Z">
+        <seg>expect(scope.myNull).toBe(null);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(scope.myObject instanceof Object).toBe true</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115749Z" creationid="nacyot" creationdate="20140313T115749Z">
+        <seg>expect(scope.myObject instanceof Object).toBe true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(scope.myObject instanceof Object).toBe(true);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115750Z" creationid="nacyot" creationdate="20140313T115750Z">
+        <seg>expect(scope.myObject instanceof Object).toBe(true);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(scope.myRegExp instanceof RegExp).toBe true</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115752Z" creationid="nacyot" creationdate="20140313T115752Z">
+        <seg>expect(scope.myRegExp instanceof RegExp).toBe true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(scope.myRegExp instanceof RegExp).toBe(true);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115753Z" creationid="nacyot" creationdate="20140313T115753Z">
+        <seg>expect(scope.myRegExp instanceof RegExp).toBe(true);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(scope.myThing).toBeDefined()</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115549Z" creationid="nacyot" creationdate="20140313T115549Z">
+        <seg>expect(scope.myThing).toBeDefined()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(scope.myThing).toBeDefined();</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115605Z" creationid="nacyot" creationdate="20140313T115605Z">
+        <seg>expect(scope.myThing).toBeDefined();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(scope.myUndefined).not.toBeDefined()</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115759Z" creationid="nacyot" creationdate="20140313T115759Z">
+        <seg>expect(scope.myUndefined).not.toBeDefined()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(scope.myUndefined).not.toBeDefined();</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T120100Z" creationid="nacyot" creationdate="20140313T120100Z">
+        <seg>expect(scope.myUndefined).not.toBeDefined();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(typeof scope.myBoolean).toBe 'boolean'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115726Z" creationid="nacyot" creationdate="20140313T115726Z">
+        <seg>expect(typeof scope.myBoolean).toBe 'boolean'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(typeof scope.myBoolean).toBe('boolean');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115728Z" creationid="nacyot" creationdate="20140313T115728Z">
+        <seg>expect(typeof scope.myBoolean).toBe('boolean');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(typeof scope.myMethod).toBe 'function'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115739Z" creationid="nacyot" creationdate="20140313T115739Z">
+        <seg>expect(typeof scope.myMethod).toBe 'function'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(typeof scope.myMethod).toBe('function');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115740Z" creationid="nacyot" creationdate="20140313T115740Z">
+        <seg>expect(typeof scope.myMethod).toBe('function');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(typeof scope.myNumber).toBe 'number'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115746Z" creationid="nacyot" creationdate="20140313T115746Z">
+        <seg>expect(typeof scope.myNumber).toBe 'number'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(typeof scope.myNumber).toBe('number');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115747Z" creationid="nacyot" creationdate="20140313T115747Z">
+        <seg>expect(typeof scope.myNumber).toBe('number');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(typeof scope.myString).toBe 'string'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115755Z" creationid="nacyot" creationdate="20140313T115755Z">
+        <seg>expect(typeof scope.myString).toBe 'string'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(typeof scope.myString).toBe('string');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115756Z" creationid="nacyot" creationdate="20140313T115756Z">
+        <seg>expect(typeof scope.myString).toBe('string');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>exportMyMethod(publicAPI);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125601Z" creationid="nacyot" creationdate="20140313T125601Z">
+        <seg>exportMyMethod(publicAPI);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>exports.getCode = (path) -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131634Z" creationid="nacyot" creationdate="20140313T131634Z">
+        <seg>exports.getCode = (path) -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>exports.getFile = getFile = (path) -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131619Z" creationid="nacyot" creationdate="20140313T131619Z">
+        <seg>exports.getFile = getFile = (path) -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>exports.parse = (filePath) -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131604Z" creationid="nacyot" creationdate="20140313T131604Z">
+        <seg>exports.parse = (filePath) -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>exports.validateMessage = validateMessage;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130240Z" creationid="nacyot" creationdate="20140313T130240Z">
+        <seg>exports.validateMessage = validateMessage;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>feat: true,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130203Z" creationid="nacyot" creationdate="20140313T130203Z">
+        <seg>feat: true,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>file: filePath</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131556Z" creationid="nacyot" creationdate="20140313T131556Z">
+        <seg>file: filePath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>files: [</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125741Z" creationid="nacyot" creationdate="20140313T125741Z">
+        <seg>files: [</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>findCodeBlocks = /```([^`]*)```/g</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131548Z" creationid="nacyot" creationdate="20140313T131548Z">
+        <seg>findCodeBlocks = /```([^`]*)```/g</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>findCodeBlocks.lastIndex = 0 # Reset regex</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131550Z" creationid="nacyot" creationdate="20140313T131550Z">
+        <seg>findCodeBlocks.lastIndex = 0 # Reset regex</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>findSections = /#{4,6}(\w{1}.*)(?:\n){1}((?:.|\n)+?\`\`\`)(?:\n){3}/g</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131604Z" creationid="nacyot" creationdate="20140313T131604Z">
+        <seg>findSections = /#{4,6}(\w{1}.*)(?:\n){1}((?:.|\n)+?\`\`\`)(?:\n){3}/g</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>findSections.lastIndex = 0 # Reset regex</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131606Z" creationid="nacyot" creationdate="20140313T131606Z">
+        <seg>findSections.lastIndex = 0 # Reset regex</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>findTestDesc = /it[\(\s]'(.*)',/g</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131548Z" creationid="nacyot" creationdate="20140313T131548Z">
+        <seg>findTestDesc = /it[\(\s]'(.*)',/g</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>findTestDesc.lastIndex = 0 # Reset regex</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131554Z" creationid="nacyot" creationdate="20140313T131554Z">
+        <seg>findTestDesc.lastIndex = 0 # Reset regex</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>fix(docs) should not be allowed ?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130230Z" creationid="nacyot" creationdate="20140313T130230Z">
+        <seg>docs: true,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>fix: true,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130203Z" creationid="nacyot" creationdate="20140313T130203Z">
+        <seg>fix: true,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>fs = require 'fs'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131619Z" creationid="nacyot" creationdate="20140313T131619Z">
+        <seg>fs = require 'fs'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>fs.appendFile(incorrectLogFile, msg + '\n', function() {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130244Z" creationid="nacyot" creationdate="20140313T130244Z">
+        <seg>fs.appendFile(incorrectLogFile, msg + '\n', function() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>fs.readFile(commitMsgFile, function(err, buffer) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130242Z" creationid="nacyot" creationdate="20140313T130242Z">
+        <seg>fs.readFile(commitMsgFile, function(err, buffer) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>fs.readFileSync path, 'utf8'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131620Z" creationid="nacyot" creationdate="20140313T131620Z">
+        <seg>fs.readFileSync path, 'utf8'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>function ($scope, $http, mySvc) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125416Z" creationid="nacyot" creationdate="20140313T125416Z">
+        <seg>function ($scope, $http, mySvc) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>function config($routeProvider) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125320Z" creationid="nacyot" creationdate="20140313T125320Z">
+        <seg>function config($routeProvider) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>function createDirective(data, template) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122916Z" creationid="nacyot" creationdate="20140313T122916Z">
+        <seg>createDirective = (data, template) -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>function exportMyMethod(api) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125551Z" creationid="nacyot" creationdate="20140313T125551Z">
+        <seg>function exportMyMethod(api) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>function getAPI() {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125552Z" creationid="nacyot" creationdate="20140313T125552Z">
+        <seg>function getAPI() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>function invalidTemplate() {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123538Z" creationid="nacyot" creationdate="20140313T123538Z">
+        <seg>function invalidTemplate() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>functions: 100,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121708Z" creationid="nacyot" creationdate="20140313T121708Z">
+        <seg>functions: 100,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>getFixture = (path) -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131633Z" creationid="nacyot" creationdate="20140313T131633Z">
+        <seg>getFixture = (path) -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>grunt.initConfig({</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121706Z" creationid="nacyot" creationdate="20140313T121706Z">
+        <seg>grunt.initConfig({</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>grunt.registerTask('default', [</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125210Z" creationid="nacyot" creationdate="20140313T125210Z">
+        <seg>grunt.registerTask('default', [</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>grunt.registerTask('test', [</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121945Z" creationid="nacyot" creationdate="20140313T121945Z">
+        <seg>grunt.registerTask('test', [</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>halstead: 9,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125202Z" creationid="nacyot" creationdate="20140313T125202Z">
+        <seg>halstead: 9,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>http://angularjs.org</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130143Z" creationid="nacyot" creationdate="20140313T130143Z">
+        <seg>http://angularjs.org</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>if (!TYPES.hasOwnProperty(type)) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130228Z" creationid="nacyot" creationdate="20140313T130228Z">
+        <seg>if (IGNORED.test(message)) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>if (!match) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130225Z" creationid="nacyot" creationdate="20140313T130225Z">
+        <seg>if (!match) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>if (!myVal) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125539Z" creationid="nacyot" creationdate="20140313T125539Z">
+        <seg>if (!myVal) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>if (!validateMessage(msg)) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130244Z" creationid="nacyot" creationdate="20140313T130244Z">
+        <seg>if (!validateMessage(msg)) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>if (IGNORED.test(message)) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130221Z" creationid="nacyot" creationdate="20140313T130221Z">
+        <seg>if (IGNORED.test(message)) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>if (message.length &gt; MAX_LENGTH) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130223Z" creationid="nacyot" creationdate="20140313T130223Z">
+        <seg>if (message.length &gt; MAX_LENGTH) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>if (process.argv.join('').indexOf('jasmine-node') === -1) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130240Z" creationid="nacyot" creationdate="20140313T130240Z">
+        <seg>if (process.argv.join('').indexOf('jasmine-node') === -1) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>if block then block else getFixture path</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131635Z" creationid="nacyot" creationdate="20140313T131635Z">
+        <seg>if block then block else getFixture path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>inject ($controller, _mySvc_) -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115407Z" creationid="nacyot" creationdate="20140313T115407Z">
+        <seg>inject ($controller, _mySvc_) -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>inject ($rootScope, $compile) -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122847Z" creationid="nacyot" creationdate="20140313T122843Z">
+        <seg>inject ($rootScope, $compile) -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>inject(function ($controller, _mySvc_) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115513Z" creationid="nacyot" creationdate="20140313T115513Z">
+        <seg>inject(function ($controller, _mySvc_) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>inject(function ($rootScope, $compile) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122953Z" creationid="nacyot" creationdate="20140313T122953Z">
+        <seg>inject(function ($rootScope, $compile) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>invalidTemplate = -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123316Z" creationid="nacyot" creationdate="20140313T123316Z">
+        <seg>invalidTemplate = -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>isValid = false;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130224Z" creationid="nacyot" creationdate="20140313T130224Z">
+        <seg>isValid = false;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>it 'should render the expected output', -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123717Z" creationid="nacyot" creationdate="20140313T123717Z">
+        <seg>it '예상대로 렌더되어야하나다.', -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>it 'should throw error when ngModel attribute not defined', -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123315Z" creationid="nacyot" creationdate="20140313T123311Z">
+        <seg>it 'ngModel이 정의되어있지 않으면 에러를 발생시켜야 한다', -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>it('should render the expected output', function () {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123730Z" creationid="nacyot" creationdate="20140313T123730Z">
+        <seg>it('예상대로 렌더되어야한다.', function () {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>it('should throw error when ngModel attribute not defined', function () {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123537Z" creationid="nacyot" creationdate="20140313T123537Z">
+        <seg>it('ngModel이 정의되어있지 않으면 에러를 발생시켜야 한다', function(){</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>jasmine = require 'jasmine-node'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131633Z" creationid="nacyot" creationdate="20140313T131633Z">
+        <seg>jasmine = require 'jasmine-node'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>javascript: {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125205Z" creationid="nacyot" creationdate="20140313T125205Z">
+        <seg>javascript: {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>js: {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125150Z" creationid="nacyot" creationdate="20140313T125150Z">
+        <seg>js: {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>jshint: {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125037Z" creationid="nacyot" creationdate="20140313T125037Z">
+        <seg>jshint: {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>jshintrc: '../.jshintrc'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125145Z" creationid="nacyot" creationdate="20140313T125145Z">
+        <seg>jshintrc: '../.jshintrc'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>karma: {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125203Z" creationid="nacyot" creationdate="20140313T125203Z">
+        <seg>karma: {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>lang = lines.shift()</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131552Z" creationid="nacyot" creationdate="20140313T131552Z">
+        <seg>lang = lines.shift()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>lang: lang</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131557Z" creationid="nacyot" creationdate="20140313T131557Z">
+        <seg>lang: lang</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>lines = block[1].split('\n')</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131551Z" creationid="nacyot" creationdate="20140313T131551Z">
+        <seg>lines = block[1].split('\n')</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>lines: 100</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121709Z" creationid="nacyot" creationdate="20140313T121709Z">
+        <seg>lines: 100</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>link: function (scope, element, attrs) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125455Z" creationid="nacyot" creationdate="20140313T125455Z">
+        <seg>link: function (scope, element, attrs) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>logLevel: config.LOG_DISABLE,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125854Z" creationid="nacyot" creationdate="20140313T125854Z">
+        <seg>logLevel: config.LOG_DISABLE,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>maintainability: 100</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125202Z" creationid="nacyot" creationdate="20140313T125202Z">
+        <seg>maintainability: 100</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>markup = getFile filePath</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131606Z" creationid="nacyot" creationdate="20140313T131606Z">
+        <seg>markup = getFile filePath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>match = findTestDesc.exec(contents)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131555Z" creationid="nacyot" creationdate="20140313T131555Z">
+        <seg>match = findTestDesc.exec(contents)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>match = markup.match(findCodeBlocks)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131609Z" creationid="nacyot" creationdate="20140313T131609Z">
+        <seg>match = markup.match(findCodeBlocks)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>module 'myApp'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115248Z" creationid="nacyot" creationdate="20140313T115248Z">
+        <seg>module 'myApp'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>module ($provide) -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115250Z" creationid="nacyot" creationdate="20140313T115250Z">
+        <seg>module ($provide) -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>module('myApp');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115458Z" creationid="nacyot" creationdate="20140313T115458Z">
+        <seg>module('myApp');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>module(function ($provide) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115500Z" creationid="nacyot" creationdate="20140313T115500Z">
+        <seg>module(function ($provide) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>module.exports = function (config) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125711Z" creationid="nacyot" creationdate="20140313T125711Z">
+        <seg>module.exports = function (config) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>module.exports = function (grunt) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125035Z" creationid="nacyot" creationdate="20140313T125035Z">
+        <seg>module.exports = function (grunt) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>msg = "Format Error: #{filePath};\nFound #{blocksInFile.length} but expected #{blockCount} blocks"</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131615Z" creationid="nacyot" creationdate="20140313T131615Z">
+        <seg>msg = "Format Error: #{filePath};\nFound #{blocksInFile.length} but expected #{blockCount} blocks"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>myArray: [],</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125555Z" creationid="nacyot" creationdate="20140313T125555Z">
+        <seg>myArray: [],</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>myBoolean: true,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125556Z" creationid="nacyot" creationdate="20140313T125556Z">
+        <seg>myBoolean: true,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>myCtrl = $controller 'myCtrl',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115409Z" creationid="nacyot" creationdate="20140313T115409Z">
+        <seg>myCtrl = $controller 'myCtrl',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>myCtrl = $controller('myCtrl', {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115514Z" creationid="nacyot" creationdate="20140313T115514Z">
+        <seg>myCtrl = $controller('myCtrl', {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>myCtrl = scope = mySvc = null</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115216Z" creationid="nacyot" creationdate="20140313T115216Z">
+        <seg>myCtrl = scope = mySvc = null</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>myDate: new Date(),</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125556Z" creationid="nacyot" creationdate="20140313T125556Z">
+        <seg>myDate: new Date(),</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>myNull: null,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125556Z" creationid="nacyot" creationdate="20140313T125556Z">
+        <seg>myNull: null,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>myNumber: 1337,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125557Z" creationid="nacyot" creationdate="20140313T125557Z">
+        <seg>myNumber: 1337,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>myObject: {},</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125557Z" creationid="nacyot" creationdate="20140313T125557Z">
+        <seg>myObject: {},</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>myRegExp: /\s/,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125558Z" creationid="nacyot" creationdate="20140313T125558Z">
+        <seg>myRegExp: /\s/,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>myString: 'test',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125558Z" creationid="nacyot" creationdate="20140313T125558Z">
+        <seg>myString: 'test',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>mySvc = _mySvc_</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115408Z" creationid="nacyot" creationdate="20140313T115408Z">
+        <seg>mySvc = _mySvc_</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>mySvc = _mySvc_;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115514Z" creationid="nacyot" creationdate="20140313T115514Z">
+        <seg>mySvc = _mySvc_;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>mySvc.myMethod({});</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125436Z" creationid="nacyot" creationdate="20140313T125436Z">
+        <seg>mySvc.myMethod({});</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>myThing: {},</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125555Z" creationid="nacyot" creationdate="20140313T125555Z">
+        <seg>myThing: {},</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>myUndefined: undefined</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125558Z" creationid="nacyot" creationdate="20140313T125558Z">
+        <seg>myUndefined: undefined</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>null</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115331Z" creationid="nacyot" creationdate="20140313T115331Z">
+        <seg>null</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>options: require('../spec/config.json').coffeelint</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125149Z" creationid="nacyot" creationdate="20140313T125149Z">
+        <seg>options: require('../spec/config.json').coffeelint</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>options: {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121707Z" creationid="nacyot" creationdate="20140313T121707Z">
+        <seg>options: {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>parse = require './parse.util'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131633Z" creationid="nacyot" creationdate="20140313T131633Z">
+        <seg>parse = require './parse.util'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>parse.parse("./spec/fixtures/#{path}.txt")[0] #return the first block</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131634Z" creationid="nacyot" creationdate="20140313T131634Z">
+        <seg>parse.parse("./spec/fixtures/#{path}.txt")[0] #return the first block</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>parseSection = (filePath, title, section) -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131548Z" creationid="nacyot" creationdate="20140313T131548Z">
+        <seg>parseSection = (filePath, title, section) -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>path = require 'path'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131547Z" creationid="nacyot" creationdate="20140313T131547Z">
+        <seg>path = require 'path'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>pattern: true</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130206Z" creationid="nacyot" creationdate="20140313T130206Z">
+        <seg>pattern: true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>port: 9877,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125847Z" creationid="nacyot" creationdate="20140313T125847Z">
+        <seg>port: 9877,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>preprocessors: {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121504Z" creationid="nacyot" creationdate="20140313T121504Z">
+        <seg>preprocessors: {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>process.exit(0);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130246Z" creationid="nacyot" creationdate="20140313T130246Z">
+        <seg>process.exit(0);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>process.exit(1);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130245Z" creationid="nacyot" creationdate="20140313T130245Z">
+        <seg>process.exit(1);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>redirectTo: '/'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125348Z" creationid="nacyot" creationdate="20140313T125348Z">
+        <seg>redirectTo: '/'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>refactor: true,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130204Z" creationid="nacyot" creationdate="20140313T130204Z">
+        <seg>refactor: true,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>reporters: ['dots', 'coverage'],</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121448Z" creationid="nacyot" creationdate="20140313T121448Z">
+        <seg>reporters: ['dots', 'coverage'],</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>require('load-grunt-tasks')(grunt);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125036Z" creationid="nacyot" creationdate="20140313T125036Z">
+        <seg>require('load-grunt-tasks')(grunt);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>require: 'ngModel',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125454Z" creationid="nacyot" creationdate="20140313T125454Z">
+        <seg>require: 'ngModel',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>restrict: 'EAC',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125454Z" creationid="nacyot" creationdate="20140313T125454Z">
+        <seg>restrict: 'EAC',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>result = scope.myMethod()</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T120102Z" creationid="nacyot" creationdate="20140313T120102Z">
+        <seg>result = scope.myMethod()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>return 'Not implemented';</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125433Z" creationid="nacyot" creationdate="20140313T125433Z">
+        <seg>return 'Not implemented';</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>return 'my filter: ' + input;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125519Z" creationid="nacyot" creationdate="20140313T125519Z">
+        <seg>return 'my filter: ' + input;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>return 1234 + 4567</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130337Z" creationid="nacyot" creationdate="20140313T130337Z">
+        <seg>return 1234 + 4567</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>return 1234 + 4567;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130340Z" creationid="nacyot" creationdate="20140313T130340Z">
+        <seg>return 1234 + 4567;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>return buffer.toString().split('\n').shift();</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130239Z" creationid="nacyot" creationdate="20140313T130239Z">
+        <seg>return buffer.toString().split('\n').shift();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>return element.text('this is my directive');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125455Z" creationid="nacyot" creationdate="20140313T125455Z">
+        <seg>return element.text('this is my directive');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>return elm;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122934Z" creationid="nacyot" creationdate="20140313T122934Z">
+        <seg>return elm;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>return expect(element.text()).toBe('this is my directive');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T123731Z" creationid="nacyot" creationdate="20140313T123731Z">
+        <seg>expect(element.text()).toBe 'this is my directive'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>return false;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130226Z" creationid="nacyot" creationdate="20140313T130226Z">
+        <seg>return elm;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>return function (input) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125518Z" creationid="nacyot" creationdate="20140313T125518Z">
+        <seg>return function (input) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>return getAPI();</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125619Z" creationid="nacyot" creationdate="20140313T125619Z">
+        <seg>return getAPI();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>return isValid;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130234Z" creationid="nacyot" creationdate="20140313T130234Z">
+        <seg>return isValid;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>return publicAPI;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125602Z" creationid="nacyot" creationdate="20140313T125602Z">
+        <seg>return publicAPI;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>return this;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125954Z" creationid="nacyot" creationdate="20140313T125954Z">
+        <seg>return this;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>return true;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130222Z" creationid="nacyot" creationdate="20140313T130222Z">
+        <seg>return true;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>return {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125453Z" creationid="nacyot" creationdate="20140313T125453Z">
+        <seg>return {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>revert: true,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130205Z" creationid="nacyot" creationdate="20140313T130205Z">
+        <seg>revert: true,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>root: 'javascript'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121710Z" creationid="nacyot" creationdate="20140313T121710Z">
+        <seg>root: 'javascript'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>scope = $rootScope.$new()</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122845Z" creationid="nacyot" creationdate="20140313T122845Z">
+        <seg>scope = $rootScope.$new()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>scope = $rootScope.$new();</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122954Z" creationid="nacyot" creationdate="20140313T122954Z">
+        <seg>scope = $rootScope.$new();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>scope = {}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115408Z" creationid="nacyot" creationdate="20140313T115408Z">
+        <seg>scope = {}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>scope = {};</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115513Z" creationid="nacyot" creationdate="20140313T115513Z">
+        <seg>scope = {};</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>scope.data = data || defaultData;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122923Z" creationid="nacyot" creationdate="20140313T122923Z">
+        <seg>scope.data = data || defaultData;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>section = findSections.exec(markup)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131607Z" creationid="nacyot" creationdate="20140313T131607Z">
+        <seg>section = findSections.exec(markup)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>singleRun: true</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125930Z" creationid="nacyot" creationdate="20140313T125930Z">
+        <seg>singleRun: true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>src: ['javascript/*.js'],</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125151Z" creationid="nacyot" creationdate="20140313T125151Z">
+        <seg>src: ['javascript/*.js'],</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>statements: 100,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121707Z" creationid="nacyot" creationdate="20140313T121707Z">
+        <seg>statements: 100,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>style: true,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130204Z" creationid="nacyot" creationdate="20140313T130204Z">
+        <seg>style: true,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>template: '&lt;div&gt;&lt;/div&gt;',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125453Z" creationid="nacyot" creationdate="20140313T125453Z">
+        <seg>template: '&lt;div&gt;&lt;/div&gt;',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>templateUrl: '../views/about.html'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125346Z" creationid="nacyot" creationdate="20140313T125346Z">
+        <seg>templateUrl: '../views/about.html'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>templateUrl: '../views/home.html',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125344Z" creationid="nacyot" creationdate="20140313T125344Z">
+        <seg>templateUrl: '../views/home.html',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>test: true,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130205Z" creationid="nacyot" creationdate="20140313T130205Z">
+        <seg>test: true,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>this is the about view.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130058Z" creationid="nacyot" creationdate="20140313T130047Z">
+        <seg>여기는 about view입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>this is the home page.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130106Z" creationid="nacyot" creationdate="20140313T130055Z">
+        <seg>여기는 home 페이지입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>this.myMethod = jasmine.createSpy('myMethod');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125953Z" creationid="nacyot" creationdate="20140313T125953Z">
+        <seg>this.myMethod = jasmine.createSpy('myMethod');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>thresholds: {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121707Z" creationid="nacyot" creationdate="20140313T121707Z">
+        <seg>thresholds: {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>throw new Error('mySvc: myVal not provided');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125540Z" creationid="nacyot" creationdate="20140313T125540Z">
+        <seg>throw new Error('mySvc: myVal not provided');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>throw new Error(msg) unless blockCount is blocksInFile.length</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131616Z" creationid="nacyot" creationdate="20140313T131616Z">
+        <seg>throw new Error(msg) unless blockCount is blocksInFile.length</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>title: title</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131557Z" creationid="nacyot" creationdate="20140313T131557Z">
+        <seg>title: title</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>type = path.basename(filePath, '.md');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131553Z" creationid="nacyot" creationdate="20140313T131553Z">
+        <seg>type = path.basename(filePath, '.md');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>type: 'text-summary',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121607Z" creationid="nacyot" creationdate="20140313T121607Z">
+        <seg>type: 'text-summary',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>type: type</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131556Z" creationid="nacyot" creationdate="20140313T131556Z">
+        <seg>type: type</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>validTemplate = '&lt;my-dir ng-model="data"&gt;&lt;/my-dir&gt;'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122701Z" creationid="nacyot" creationdate="20140313T122701Z">
+        <seg>validTemplate = '&lt;my-dir ng-model="data"&gt;&lt;/my-dir&gt;'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>validTemplate = '&lt;my-dir ng-model="data"&gt;&lt;/my-dir&gt;';</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122915Z" creationid="nacyot" creationdate="20140313T122915Z">
+        <seg>validTemplate = '&lt;my-dir ng-model="data"&gt;&lt;/my-dir&gt;';</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var IGNORED = /^WIP\:/;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130202Z" creationid="nacyot" creationdate="20140313T130202Z">
+        <seg>var IGNORED = /^WIP\:/;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var MAX_LENGTH = 70;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130145Z" creationid="nacyot" creationdate="20140313T130145Z">
+        <seg>var MAX_LENGTH = 70;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var PATTERN = /^(?:fixup!\s*)?(\w*)(\(([\w\$\.\-\*/]*)\))?\: (.*)$/;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130146Z" creationid="nacyot" creationdate="20140313T130146Z">
+        <seg>var PATTERN = /^(?:fixup!\s*)?(\w*)(\(([\w\$\.\-\*/]*)\))?\: (.*)$/;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var TYPES = {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130202Z" creationid="nacyot" creationdate="20140313T130202Z">
+        <seg>var TYPES = {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var commitMsgFile = process.argv[2];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130241Z" creationid="nacyot" creationdate="20140313T130241Z">
+        <seg>var commitMsgFile = process.argv[2];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var dependencies = [</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125308Z" creationid="nacyot" creationdate="20140313T125308Z">
+        <seg>var dependencies = [</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var element, scope, compile, defaultData,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122915Z" creationid="nacyot" creationdate="20140313T122915Z">
+        <seg>var element, scope, compile, defaultData,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var elm;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T122917Z" creationid="nacyot" creationdate="20140313T122917Z">
+        <seg>var elm;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var error = function() {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130207Z" creationid="nacyot" creationdate="20140313T130207Z">
+        <seg>var error = function() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var firstLineFromBuffer = function(buffer) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130238Z" creationid="nacyot" creationdate="20140313T130238Z">
+        <seg>var firstLineFromBuffer = function(buffer) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var fs = require('fs');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130144Z" creationid="nacyot" creationdate="20140313T130144Z">
+        <seg>var fs = require('fs');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var incorrectLogFile = commitMsgFile.replace('COMMIT_EDITMSG', 'logs/incorrect-commit-msgs');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130242Z" creationid="nacyot" creationdate="20140313T130242Z">
+        <seg>var incorrectLogFile = commitMsgFile.replace('COMMIT_EDITMSG', 'logs/incorrect-commit-msgs');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var isValid = true;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130221Z" creationid="nacyot" creationdate="20140313T130221Z">
+        <seg>var isValid = true;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var match = PATTERN.exec(message);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130225Z" creationid="nacyot" creationdate="20140313T130225Z">
+        <seg>var match = PATTERN.exec(message);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var msg = firstLineFromBuffer(buffer);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130243Z" creationid="nacyot" creationdate="20140313T130243Z">
+        <seg>var msg = firstLineFromBuffer(buffer);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var myCtrl, scope, mySvc;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115433Z" creationid="nacyot" creationdate="20140313T115433Z">
+        <seg>var myCtrl, scope, mySvc;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var publicAPI = {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125555Z" creationid="nacyot" creationdate="20140313T125555Z">
+        <seg>var publicAPI = {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var result = scope.myMethod();</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T120105Z" creationid="nacyot" creationdate="20140313T120105Z">
+        <seg>var result = scope.myMethod();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var scope = match[3];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130227Z" creationid="nacyot" creationdate="20140313T130227Z">
+        <seg>var scope = match[3];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var subject = match[4];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130227Z" creationid="nacyot" creationdate="20140313T130227Z">
+        <seg>var subject = match[4];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var type = match[1];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130227Z" creationid="nacyot" creationdate="20140313T130227Z">
+        <seg>var result = scope.myMethod();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var util = require('util');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130144Z" creationid="nacyot" creationdate="20140313T130144Z">
+        <seg>var util = require('util');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var validateMessage = function(message) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130212Z" creationid="nacyot" creationdate="20140313T130212Z">
+        <seg>var validateMessage = function(message) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var x = function () {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130340Z" creationid="nacyot" creationdate="20140313T130340Z">
+        <seg>var x = function () {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var x = function () { return 1234 + 4567 }</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130348Z" creationid="nacyot" creationdate="20140313T130348Z">
+        <seg>var x = function () { return 1234 + 4567 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>was: ' + message);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130226Z" creationid="nacyot" creationdate="20140313T130226Z">
+        <seg>was: ' + message);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>while (block = findCodeBlocks.exec(section)) isnt null</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T131550Z" creationid="nacyot" creationdate="20140313T131550Z">
+        <seg>while (block = findCodeBlocks.exec(section)) isnt null</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>x = () -&gt; return 1234 + 4567</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130347Z" creationid="nacyot" creationdate="20140313T130347Z">
+        <seg>x = () -&gt; return 1234 + 4567</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>x = -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130337Z" creationid="nacyot" creationdate="20140313T130337Z">
+        <seg>x = -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121608Z" creationid="nacyot" creationdate="20140313T121608Z">
+        <seg>}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>} else {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T130245Z" creationid="nacyot" creationdate="20140313T130245Z">
+        <seg>} else {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>})</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125345Z" creationid="nacyot" creationdate="20140313T125345Z">
+        <seg>})</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>});</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T115502Z" creationid="nacyot" creationdate="20140313T115502Z">
+        <seg>});</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>},</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T121507Z" creationid="nacyot" creationdate="20140313T121507Z">
+        <seg>},</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>};</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125213Z" creationid="nacyot" creationdate="20140313T125213Z">
+        <seg>};</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>}]);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T125437Z" creationid="nacyot" creationdate="20140313T125437Z">
+        <seg>}]);</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>

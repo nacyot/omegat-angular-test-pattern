@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.8_3" segtype="sentence" srclang="EN"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="EN">
+        <seg>## A / B Testing AngularJS</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T164546Z" creationid="nacyot" creationdate="20140311T164546Z">
+        <seg>## AngularJS A / B 테스트</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## Performance Testing AngularJS</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140312T124722Z" creationid="nacyot" creationdate="20140312T124722Z">
+        <seg>	</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>### What is working well for you?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T165459Z" creationid="nacyot" creationdate="20140311T165456Z">
+        <seg>### 좋은 패턴을 알고 계시나요?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>##### Testing Patterns</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T164634Z" creationid="nacyot" creationdate="20140311T164634Z">
+        <seg>##### 테스트 패턴</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>###### [Example](../example) implementation of these testing patterns</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T170155Z" creationid="nacyot" creationdate="20140311T170155Z">
+        <seg>###### [예제](../example)는 이 패턴들을 기반으로 만들어졌습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* *[pull request welcome!](../#contributing-test-patterns)*</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T170121Z" creationid="nacyot" creationdate="20140311T170121Z">
+        <seg>* *[풀리퀘스트로 알려주세요!](../#contributing-test-patterns)*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Data type</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T165519Z" creationid="nacyot" creationdate="20140311T165519Z">
+        <seg>* 데이터 타입</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Have a good pattern?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T170105Z" creationid="nacyot" creationdate="20140311T170103Z">
+        <seg>* 좋은 패턴을 알고 계신가요?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Array](#attach-myarray-to-the-scope-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T165920Z" creationid="nacyot" creationdate="20140311T165659Z">
+        <seg>* [배열(Array)](#attach-myarray-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Boolean](#attach-myboolean-to-the-scope-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T165927Z" creationid="nacyot" creationdate="20140311T165803Z">
+        <seg>* [논리값(Boolean)](#attach-myboolean-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Date](#attach-mydate-to-the-scope-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T165930Z" creationid="nacyot" creationdate="20140311T165839Z">
+        <seg>* [날짜(Date)](#attach-mydate-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Method](#attach-mymethod-to-the-scope-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T165933Z" creationid="nacyot" creationdate="20140311T165844Z">
+        <seg>* [메소드(Method)](#attach-mymethod-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Null](#attach-mynull-to-the-scope-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T165938Z" creationid="nacyot" creationdate="20140311T165901Z">
+        <seg>* [널(Null)](#attach-mymethod-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Number](#attach-mynumber-to-the-scope-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T165950Z" creationid="nacyot" creationdate="20140311T165950Z">
+        <seg>* [숫자(Number)](#attach-mynumber-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Object](#attach-myobject-to-the-scope-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T165959Z" creationid="nacyot" creationdate="20140311T165959Z">
+        <seg>* [객체(Object)](#attach-myobject-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [RegExp](#attach-myregexp-to-the-scope-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T170008Z" creationid="nacyot" creationdate="20140311T170008Z">
+        <seg>* [정규표현식(RegExp)](#attach-myregexp-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [String](#attach-mystring-to-the-scope-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T170029Z" creationid="nacyot" creationdate="20140311T170026Z">
+        <seg>* [문자열](#attach-mystring-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Suggested Setup](#suggested-controller-unit-test-setup-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T165515Z" creationid="nacyot" creationdate="20140311T165515Z">
+        <seg>* [권장하는 설정](#suggested-controller-unit-test-setup-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Suggested Setup](#suggested-controller-unit-test-setup-)
+* Data type</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T164825Z" creationid="nacyot" creationdate="20140311T164814Z">
+        <seg>* [권장하는 설정](#suggested-controller-unit-test-setup-)
+* 데이터 타입</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>*[pull request welcome!](../#contributing-test-patterns)*</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140311T164704Z" creationid="nacyot" creationdate="20140311T164704Z">
+        <seg>*[풀 리퀘스트를 보내주세요!](../#contributing-test-patterns)*</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>

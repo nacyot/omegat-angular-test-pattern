@@ -1,0 +1,48 @@
+{
+  "name": "angular-test-patterns",
+  "version": "0.0.2",
+  "description": "High Quality Guide for Testing AngularJS",
+  "keywords": [
+    "angularjs",
+    "unit test",
+    "patterns"
+  ],
+  "homepage": "https://github.com/daniellmb/angular-test-patterns",
+  "author": "Daniel Lamb (http://daniellmb.com)",
+  "maintainers": [
+    
+  ],
+  "contributors": [
+
+  ],
+  "bugs": {
+    "url": "https://github.com/daniellmb/angular-test-patterns/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/daniellmb/angular-test-patterns.git"
+  },
+  "devDependencies": {
+    "coffee-script": "latest",
+    "jasmine-node": "latest",
+    "esprima": "latest",
+    "coffeelint": "latest",
+    "jshint": "latest",
+    "grunt-cli": "latest"
+  },
+  "scripts": {
+    "test": "npm run testRules && npm run testPatterns && npm run testExamples",
+    "testRules": "node spec/rule.tester.js",
+    "testPatterns": "node spec/pattern.tester.js",
+    "testExamples": "bash spec/testExamples.sh"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
