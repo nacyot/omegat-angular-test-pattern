@@ -286,6 +286,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>## Testing Patterns</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T141251Z" creationid="nacyot" creationdate="20140313T141251Z">
+        <seg>## 테스트 패턴</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>## Unit Testing AngularJS Directives</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T122442Z" creationid="nacyot" creationdate="20140313T122351Z">
@@ -1046,6 +1054,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* Unit Testing</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T141254Z" creationid="nacyot" creationdate="20140313T141254Z">
+        <seg>* 유닛 테스트</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* When the model changes</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T122620Z" creationid="nacyot" creationdate="20140313T122620Z">
@@ -1082,6 +1098,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T130015Z" creationid="nacyot" creationdate="20140313T130009Z">
         <seg>* [커피스크립트(CoffeeScript)](coffeescript)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Controllers](patterns/controller.md#unit-testing-angularjs-controllers)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T141301Z" creationid="nacyot" creationdate="20140313T141301Z">
+        <seg>* [컨트롤러](patterns/controller.md#unit-testing-angularjs-controllers)</seg>
       </tuv>
     </tu>
     <tu>
@@ -2578,8 +2602,8 @@
       <tuv lang="EN">
         <seg>High Quality Cut-n-Paste Guide for Testing your AngularJS [Controllers](patterns/controller.md), [Services](patterns/service.md), [Constants](patterns/constant.md), [Directives](patterns/directive.md) and [Filters](patterns/filter.md).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140313T141210Z" creationid="nacyot" creationdate="20140313T134906Z">
-        <seg>바로 활용할 수 있는 유용한 앵귤러JS 테스팅 패턴을 소개합니다. [컨트롤러](patterns/controller.md), [Services](patterns/service.md), [Constants](patterns/constant.md), [Directives](patterns/directive.md) and [Filters](patterns/filter.md)</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T141407Z" creationid="nacyot" creationdate="20140313T134906Z">
+        <seg>바로 활용할 수 있는 유용한 앵귤러JS 테스팅 패턴을 소개합니다. [컨트롤러(Controller)](patterns/controller.md), [서비스(Service)](patterns/service.md), [상수(Constant)](patterns/constant.md), [지시자(Directives)](patterns/directive.md) [필터(Filters)](patterns/filter.md)는 물론,</seg>
       </tuv>
     </tu>
     <tu>
