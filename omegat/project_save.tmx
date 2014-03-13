@@ -4955,8 +4955,8 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       <tuv lang="EN">
         <seg>describe 'when evaluating an expression', -&gt;</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140313T153500Z" creationid="nacyot" creationdate="20140313T153445Z">
-        <seg>describe '이 식이 평가되었을 때', -&gt;</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T232826Z" creationid="nacyot" creationdate="20140313T153445Z">
+        <seg>describe '이 식이 평가되었을 때', -&gt;l</seg>
       </tuv>
     </tu>
     <tu>
