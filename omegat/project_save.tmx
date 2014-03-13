@@ -174,6 +174,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg># Load the filters's module</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153335Z" creationid="nacyot" creationdate="20140313T153335Z">
+        <seg># 필터의 모듈 읽어오기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg># Load the service's module</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T152349Z" creationid="nacyot" creationdate="20140313T152349Z">
@@ -1794,8 +1802,8 @@
       <tuv lang="EN">
         <seg>* [Suggested Setup](#suggested-filter-unit-test-setup-)</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140313T153304Z" creationid="nacyot" creationdate="20140313T153143Z">
-        <seg>* [권장하는 설정]</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153318Z" creationid="nacyot" creationdate="20140313T153143Z">
+        <seg>* [권장하는 설정]](#suggested-filter-unit-test-setup-)</seg>
       </tuv>
     </tu>
     <tu>
@@ -2476,6 +2484,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T122938Z" creationid="nacyot" creationdate="20140313T122938Z">
         <seg>// 디렉티브의 모듈 읽어오기 @@@</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Load the filters's module</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153514Z" creationid="nacyot" creationdate="20140313T153514Z">
+        <seg>// 필터의 모듈 읽어오기</seg>
       </tuv>
     </tu>
     <tu>
@@ -4865,6 +4881,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>describe 'Service: myFltr', -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153326Z" creationid="nacyot" creationdate="20140313T153326Z">
+        <seg>describe 'Service: myFltr', -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>describe 'Service: mySvc', -&gt;</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T152410Z" creationid="nacyot" creationdate="20140313T152147Z">
@@ -4921,6 +4945,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>describe 'when evaluating an expression', -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153500Z" creationid="nacyot" creationdate="20140313T153445Z">
+        <seg>describe '이 식이 평가되었을 때', -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>describe 'when the model changes', -&gt;</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T123109Z" creationid="nacyot" creationdate="20140313T122906Z">
@@ -4941,6 +4973,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T122914Z" creationid="nacyot" creationdate="20140313T122914Z">
         <seg>describe('Directive: myDir', function () {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>describe('Filter: myFltr', function () {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153506Z" creationid="nacyot" creationdate="20140313T153506Z">
+        <seg>describe('필터: myFltr', function () {</seg>
       </tuv>
     </tu>
     <tu>
@@ -5197,6 +5237,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T115516Z" creationid="nacyot" creationdate="20140313T115516Z">
         <seg>expect(!!myCtrl).toBe(true);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(!!myFltr).toBe yes</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153347Z" creationid="nacyot" creationdate="20140313T153347Z">
+        <seg>expect(!!myFltr).toBe yes</seg>
       </tuv>
     </tu>
     <tu>
@@ -6377,6 +6425,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>inject ($filter) -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153346Z" creationid="nacyot" creationdate="20140313T153346Z">
+        <seg>inject ($filter) -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>inject ($rootScope, $compile) -&gt;</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T122847Z" creationid="nacyot" creationdate="20140313T122843Z">
@@ -6917,6 +6973,22 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T125556Z" creationid="nacyot" creationdate="20140313T125556Z">
         <seg>myDate: new Date(),</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>myFltr = $filter('myFltr')</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153346Z" creationid="nacyot" creationdate="20140313T153346Z">
+        <seg>myFltr = $filter('myFltr')</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>myFltr = null</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153327Z" creationid="nacyot" creationdate="20140313T153327Z">
+        <seg>myFltr = null</seg>
       </tuv>
     </tu>
     <tu>
@@ -8357,6 +8429,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T115433Z" creationid="nacyot" creationdate="20140313T115433Z">
         <seg>var myCtrl, scope, mySvc;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var myFltr;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153507Z" creationid="nacyot" creationdate="20140313T153507Z">
+        <seg>var myFltr;</seg>
       </tuv>
     </tu>
     <tu>
