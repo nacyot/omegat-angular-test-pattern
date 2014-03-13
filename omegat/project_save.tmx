@@ -974,6 +974,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* End-to-end Scenarios (Integration)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T142010Z" creationid="nacyot" creationdate="20140313T141952Z">
+        <seg>* 엔드 투 엔드 시나리오(Integration)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* Git COMMIT-MSG hook for validating commit message</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T130215Z" creationid="nacyot" creationdate="20140313T130215Z">
@@ -1070,6 +1078,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* [A/B Testing](patterns/ab.md#a--b-testing-angularjs)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T142147Z" creationid="nacyot" creationdate="20140313T142044Z">
+        <seg>* [A/B 테스트(A/B Testing)](patterns/ab.md#a--b-testing-angularjs)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* [Angular Scenario](#angular-scenario-)</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T123814Z" creationid="nacyot" creationdate="20140313T123803Z">
@@ -1102,10 +1118,26 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* [Complexity Threshold Enforcement](patterns/complexity.md#complexity-threshold-enforcement-for-angularjs)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T142210Z" creationid="nacyot" creationdate="20140313T142100Z">
+        <seg>* [복잡도 기준 설정(Complexity Threshold Enforcement)](patterns/complexity.md#complexity-threshold-enforcement-for-angularjs)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Constants](patterns/constant.md#unit-testing-angularjs-constants)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T141956Z" creationid="nacyot" creationdate="20140313T141947Z">
+        <seg>* [상수(Constants)](patterns/constant.md#unit-testing-angularjs-constants)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* [Controllers](patterns/controller.md#unit-testing-angularjs-controllers)</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140313T141301Z" creationid="nacyot" creationdate="20140313T141301Z">
-        <seg>* [컨트롤러](patterns/controller.md#unit-testing-angularjs-controllers)</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T141833Z" creationid="nacyot" creationdate="20140313T141301Z">
+        <seg>* [컨트롤러(Cotrollers)](patterns/controller.md#unit-testing-angularjs-controllers)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1114,6 +1146,30 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140311T165930Z" creationid="nacyot" creationdate="20140311T165839Z">
         <seg>* [날짜(Date)](#attach-mydate-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Directives](patterns/directive.md#unit-testing-angularjs-directives)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T141907Z" creationid="nacyot" creationdate="20140313T141857Z">
+        <seg>* [지시자(Directives)](patterns/directive.md#unit-testing-angularjs-directives)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [E2E Scenarios](patterns/e2e.md#end-to-end-testing-angularjs)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T142029Z" creationid="nacyot" creationdate="20140313T142015Z">
+        <seg>* [E2E 시나리오(E2E Scenarios](patterns/e2e.md#end-to-end-testing-angularjs)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Filters](patterns/filter.md#unit-testing-angularjs-filters)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T141941Z" creationid="nacyot" creationdate="20140313T141918Z">
+        <seg>* [필터(Filters)](patterns/filter.md#unit-testing-angularjs-filters)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1158,6 +1214,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* [Performance Testing](patterns/performance.md#performance-testing-angularjs)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T142214Z" creationid="nacyot" creationdate="20140313T142101Z">
+        <seg>* [성능 테스트(Performance Testing)](patterns/performance.md#performance-testing-angularjs)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* [Protractor](#protractor-)</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T123821Z" creationid="nacyot" creationdate="20140313T123803Z">
@@ -1170,6 +1234,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140311T170008Z" creationid="nacyot" creationdate="20140311T170008Z">
         <seg>* [정규표현식(RegExp)](#attach-myregexp-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Services](patterns/service.md#unit-testing-angularjs-services)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T141932Z" creationid="nacyot" creationdate="20140313T141932Z">
+        <seg>* [서비스(Services)](patterns/service.md#unit-testing-angularjs-services)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1216,10 +1288,26 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* [Test Coverage Enforcement](patterns/coverage.md#coverage-threshold-enforcement-for-angularjs)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T142202Z" creationid="nacyot" creationdate="20140313T142059Z">
+        <seg>* [테스트 커버리지 기준 설정(Test Coverage Enforcement)](patterns/coverage.md#coverage-threshold-enforcement-for-angularjs)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* [Undefined](#expect-myundefined-to-be-undefined-)</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T114954Z" creationid="nacyot" creationdate="20140313T114929Z">
         <seg>* [미정의(Undefined)](#expect-myundefined-to-be-undefined-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Using Mocks](patterns/mock.md#unit-testing-angularjs-using-mocks)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T142119Z" creationid="nacyot" creationdate="20140313T142036Z">
+        <seg>* [모의 객체 사용하기(Using Mocks)](patterns/mock.md#unit-testing-angularjs-using-mocks)</seg>
       </tuv>
     </tu>
     <tu>
@@ -2452,6 +2540,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T125524Z" creationid="nacyot" creationdate="20140313T125524Z">
         <seg>어플리케이션 서비스</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>As well as ideas on how to use [Mocks](patterns/mock.md), [End-to-End](patterns/e2e.md) tests, [Performance Testing](patterns/performance.md), [A/B Testing](patterns/ab.md) and [More](patterns/perceptualdiff.md)!</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T141819Z" creationid="nacyot" creationdate="20140313T141819Z">
+        <seg>[모의 객체(Mocks)](patterns/mock.md), [엔드 투 엔드 테스트(End-to-End)](patterns/e2e.md), [성능 테스트(Performance Testing)]를 비롯해 [추가적인 내용](patterns/performance.md)도 다루고 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
