@@ -62,6 +62,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg># Call this before each test, except where you are testing for errors</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152321Z" creationid="nacyot" creationdate="20140313T152321Z">
+        <seg># 아래 메소드는 에러가 발생하지 않는 한 매 테스트마다 호출됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg># Check for section formatting issues</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T133450Z" creationid="nacyot" creationdate="20140313T133450Z">
@@ -90,6 +98,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T122732Z" creationid="nacyot" creationdate="20140313T122732Z">
         <seg># 지시자 만들기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg># Execute callback with $provide</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152212Z" creationid="nacyot" creationdate="20140313T152212Z">
+        <seg># $provide를 넘겨 콜백을 실행합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -126,6 +142,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg># Inject the code under test</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152334Z" creationid="nacyot" creationdate="20140313T152334Z">
+        <seg># 테스트에서 코드 주입하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg># Load the controller's module</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T115247Z" creationid="nacyot" creationdate="20140313T115218Z">
@@ -142,10 +166,18 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg># Load the service's module</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152349Z" creationid="nacyot" creationdate="20140313T152349Z">
+        <seg># 서비스의 모듈 읽어오기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg># Make sure CoffeeScript doesn't return anything</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140313T115315Z" creationid="nacyot" creationdate="20140313T115315Z">
-        <seg># 커피스크립트 상에서 어떤 것도 리턴하지 않음에 주목하세요.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152235Z" creationid="nacyot" creationdate="20140313T115315Z">
+        <seg># 커피스크립트에서는 아무것도 리턴하지 않아야합니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -250,6 +282,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T150907Z" creationid="nacyot" creationdate="20140313T150907Z">
         <seg># 앵귤러JS 서비스 유닛 테스트</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg># Use to inject the code under test</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152254Z" creationid="nacyot" creationdate="20140313T152254Z">
+        <seg># 테스트에서 코드 주입하기</seg>
       </tuv>
     </tu>
     <tu>
@@ -578,6 +618,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T124851Z" creationid="nacyot" creationdate="20140313T124838Z">
         <seg>#### 권장하는 시나리오 유닛 테스트 설정 [&amp;#8593;](#testing-patterns)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>####Suggested Service Unit Test Setup [&amp;#8593;](#testing-patterns)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152144Z" creationid="nacyot" creationdate="20140313T152144Z">
+        <seg>#### 권장하는 서비스 유닛 테스트 설정[&amp;#8593;](#testing-patterns)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1462,6 +1510,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* [Boolean](#provide-a-myboolean-property-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152048Z" creationid="nacyot" creationdate="20140313T151950Z">
+        <seg>* [논리값(Boolean)](#provide-a-myboolean-property-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* [CoffeeScript](coffeescript)</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T130015Z" creationid="nacyot" creationdate="20140313T130009Z">
@@ -1498,6 +1554,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140311T165930Z" creationid="nacyot" creationdate="20140311T165839Z">
         <seg>* [날짜(Date)](#attach-mydate-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Date](#provide-a-mydate-property-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152051Z" creationid="nacyot" creationdate="20140313T151956Z">
+        <seg>* [날짜(Date)](#provide-a-mydate-property-)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1550,10 +1614,26 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* [Method](#provide-a-mymethod-function-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152052Z" creationid="nacyot" creationdate="20140313T152007Z">
+        <seg>* [메소드(Method)](#provide-a-mymethod-function-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* [Null](#attach-mynull-to-the-scope-)</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140311T165938Z" creationid="nacyot" creationdate="20140311T165901Z">
         <seg>* [널(Null)](#attach-mymethod-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Null](#provide-a-mynull-property-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152055Z" creationid="nacyot" creationdate="20140313T152016Z">
+        <seg>* [널(Null)](#provide-a-mynull-property-)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1566,10 +1646,26 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* [Number](#provide-a-mynumber-property-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152057Z" creationid="nacyot" creationdate="20140313T152026Z">
+        <seg>* [숫자(Number)](#provide-a-mynumber-property-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* [Object](#attach-myobject-to-the-scope-)</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140311T165959Z" creationid="nacyot" creationdate="20140311T165959Z">
         <seg>* [객체(Object)](#attach-myobject-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Object](#provide-a-myobject-property-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152100Z" creationid="nacyot" creationdate="20140313T152031Z">
+        <seg>* [객체(Object)](#provide-a-myobject-property-)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1598,6 +1694,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* [RegExp](#provide-a-myregexp-property-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152102Z" creationid="nacyot" creationdate="20140313T152040Z">
+        <seg>* [정규표현식(RegExp)](#provide-a-myregexp-property-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* [Services](patterns/service.md#unit-testing-angularjs-services)</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T141932Z" creationid="nacyot" creationdate="20140313T141932Z">
@@ -1610,6 +1714,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T114941Z" creationid="nacyot" creationdate="20140311T170026Z">
         <seg>* [문자열(String](#attach-mystring-to-the-scope-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [String](#provide-a-mystring-property-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152111Z" creationid="nacyot" creationdate="20140313T152111Z">
+        <seg>* [문자열(String](#provide-a-mystring-property-)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1692,6 +1804,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T143604Z" creationid="nacyot" creationdate="20140313T143604Z">
         <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Undefined](#expect-a-myundefined-to-be-undefined-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152121Z" creationid="nacyot" creationdate="20140313T152121Z">
+        <seg>* [미정의(Undefined](#expect-a-myundefined-to-be-undefined-)</seg>
       </tuv>
     </tu>
     <tu>
@@ -3801,6 +3921,54 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>_inject = -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152240Z" creationid="nacyot" creationdate="20140313T152240Z">
+        <seg>_inject = -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>_inject()</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152336Z" creationid="nacyot" creationdate="20140313T152336Z">
+        <seg>_inject()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>_provide (provide) -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152325Z" creationid="nacyot" creationdate="20140313T152325Z">
+        <seg>_provide (provide) -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>_provide = (callback) -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152149Z" creationid="nacyot" creationdate="20140313T152149Z">
+        <seg>_provide = (callback) -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>_setup = -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152322Z" creationid="nacyot" creationdate="20140313T152322Z">
+        <seg>_setup = -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>_setup()</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152417Z" creationid="nacyot" creationdate="20140313T152417Z">
+        <seg>_setup()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>```</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T115420Z" creationid="nacyot" creationdate="20140313T115420Z">
@@ -4093,6 +4261,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T125905Z" creationid="nacyot" creationdate="20140313T125905Z">
         <seg>browsers: ['PhantomJS'],</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>callback $provide</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152213Z" creationid="nacyot" creationdate="20140313T152213Z">
+        <seg>callback $provide</seg>
       </tuv>
     </tu>
     <tu>
@@ -4569,10 +4745,26 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>describe 'Service: mySvc', -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152410Z" creationid="nacyot" creationdate="20140313T152147Z">
+        <seg>describe '서비스: mySvc', -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>describe 'default route', -&gt;</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T124928Z" creationid="nacyot" creationdate="20140313T124928Z">
         <seg>describe 'default route', -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>describe 'service errors', -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152427Z" creationid="nacyot" creationdate="20140313T152427Z">
+        <seg>describe '서비스 에러', -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -4589,6 +4781,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T133654Z" creationid="nacyot" creationdate="20140313T133654Z">
         <seg>describe 'the first line', -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>describe 'the service api', -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152400Z" creationid="nacyot" creationdate="20140313T152352Z">
+        <seg>describe '서비스 api', -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -4853,6 +5053,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T115516Z" creationid="nacyot" creationdate="20140313T115516Z">
         <seg>expect(!!myCtrl).toBe(true);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(!!mySvc).toBe true</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152418Z" creationid="nacyot" creationdate="20140313T152418Z">
+        <seg>expect(!!mySvc).toBe true</seg>
       </tuv>
     </tu>
     <tu>
@@ -5785,6 +5993,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>inject (_mySvc_) -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152241Z" creationid="nacyot" creationdate="20140313T152241Z">
+        <seg>inject (_mySvc_) -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>inject(function ($controller, _mySvc_) {</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T115513Z" creationid="nacyot" creationdate="20140313T115513Z">
@@ -5877,6 +6093,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T133729Z" creationid="nacyot" creationdate="20140313T133729Z">
         <seg>it 'should contain valid code', -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>it 'should exist', -&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152417Z" creationid="nacyot" creationdate="20140313T152417Z">
+        <seg>it 'should exist', -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6329,6 +6553,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>mySvc = null</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152148Z" creationid="nacyot" creationdate="20140313T152148Z">
+        <seg>mySvc = null</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>mySvc.myMethod({});</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T125436Z" creationid="nacyot" creationdate="20140313T125436Z">
@@ -6557,6 +6789,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T133604Z" creationid="nacyot" creationdate="20140313T133604Z">
         <seg>process.removeListener 'exit', onExit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>provide.value 'myVal', {}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152325Z" creationid="nacyot" creationdate="20140313T152325Z">
+        <seg>provide.value 'myVal', {}</seg>
       </tuv>
     </tu>
     <tu>
