@@ -2544,6 +2544,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>// Provide any mocks needed</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T160853Z" creationid="nacyot" creationdate="20140313T160853Z">
+        <seg>// 모의 객체가 필요하면 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>// Reset data each time</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T122947Z" creationid="nacyot" creationdate="20140313T122939Z">
