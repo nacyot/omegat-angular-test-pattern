@@ -398,6 +398,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>## Unit Testing AngularJS Filters</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153135Z" creationid="nacyot" creationdate="20140313T153135Z">
+        <seg>## 앵귤러JS 필터 유닛 테스트</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>## What's an AngularJS Test Pattern?</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T142228Z" creationid="nacyot" creationdate="20140313T142228Z">
@@ -618,6 +626,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T133425Z" creationid="nacyot" creationdate="20140313T133425Z">
         <seg>####My Awesome Test Pattern Title</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>####My service should:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152957Z" creationid="nacyot" creationdate="20140313T152957Z">
+        <seg>#### 이 서비스는:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1776,6 +1792,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* [Suggested Setup](#suggested-filter-unit-test-setup-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153143Z" creationid="nacyot" creationdate="20140313T153143Z">
+        <seg>* [권장하는 설정]#</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* [Suggested Setup](#suggested-scenario-unit-test-setup-)</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T124542Z" creationid="nacyot" creationdate="20140313T124542Z">
@@ -2408,6 +2432,22 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>// Inject WITHOUT providing required values</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152931Z" creationid="nacyot" creationdate="20140313T152931Z">
+        <seg>// 필요한 의존성 객체를 넘기지 않고 주입 함수를 호출합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Inject the code under test</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152812Z" creationid="nacyot" creationdate="20140313T152812Z">
+        <seg>// 테스트에서 코드 주입하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>// JavaScript</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T132145Z" creationid="nacyot" creationdate="20140313T131900Z">
@@ -2436,6 +2476,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T122938Z" creationid="nacyot" creationdate="20140313T122938Z">
         <seg>// 디렉티브의 모듈 읽어오기 @@@</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Load the service's module</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152820Z" creationid="nacyot" creationdate="20140313T152820Z">
+        <seg>// 서비스의 모듈 읽어오기</seg>
       </tuv>
     </tu>
     <tu>
@@ -2524,6 +2572,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T125903Z" creationid="nacyot" creationdate="20140313T125903Z">
         <seg>// 테스트할 브라우저 지정</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>// Use an anonymous function to wrap the code that will fail</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152919Z" creationid="nacyot" creationdate="20140313T152919Z">
+        <seg>// 실패하는 코드를 무명 함수로 감싸줍니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3961,6 +4017,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>_inject();</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152812Z" creationid="nacyot" creationdate="20140313T152812Z">
+        <seg>_inject();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>_provide (provide) -&gt;</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T152325Z" creationid="nacyot" creationdate="20140313T152325Z">
@@ -3977,6 +4041,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>_provide(function (provide) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152802Z" creationid="nacyot" creationdate="20140313T152802Z">
+        <seg>_provide(function (provide) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>_setup = -&gt;</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T152322Z" creationid="nacyot" creationdate="20140313T152322Z">
@@ -3988,6 +4060,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
         <seg>_setup()</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T152417Z" creationid="nacyot" creationdate="20140313T152417Z">
+        <seg>_setup()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>_setup();</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152837Z" creationid="nacyot" creationdate="20140313T152837Z">
         <seg>_setup()</seg>
       </tuv>
     </tu>
@@ -4021,6 +4101,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T131855Z" creationid="nacyot" creationdate="20140313T131855Z">
         <seg>```JavaScript</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>````</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153027Z" creationid="nacyot" creationdate="20140313T153027Z">
+        <seg>````</seg>
       </tuv>
     </tu>
     <tu>
@@ -4309,6 +4397,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T133551Z" creationid="nacyot" creationdate="20140313T133551Z">
         <seg>callback spec if callback</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>callback($provide);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152756Z" creationid="nacyot" creationdate="20140313T152756Z">
+        <seg>callback($provide);</seg>
       </tuv>
     </tu>
     <tu>
@@ -4859,8 +4955,8 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       <tuv lang="EN">
         <seg>describe('Service: mySvc', function () {</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140313T152718Z" creationid="nacyot" creationdate="20140313T152718Z">
-        <seg>describe('Service: mySvc', function () {</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152749Z" creationid="nacyot" creationdate="20140313T152718Z">
+        <seg>describe('서비스: mySvc', function () {</seg>
       </tuv>
     </tu>
     <tu>
@@ -4869,6 +4965,22 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T124949Z" creationid="nacyot" creationdate="20140313T124949Z">
         <seg>describe('기본 라우트', function () {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>describe('service errors', function () {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152902Z" creationid="nacyot" creationdate="20140313T152902Z">
+        <seg>describe('서비스 에러', function () {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>describe('the service api', function () {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152832Z" creationid="nacyot" creationdate="20140313T152822Z">
+        <seg>describe('서비스 api', function () {</seg>
       </tuv>
     </tu>
     <tu>
@@ -5097,6 +5209,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>expect(!!mySvc).toBe(true);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152853Z" creationid="nacyot" creationdate="20140313T152853Z">
+        <seg>expect(!!mySvc).toBe(true);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>expect(browser().location().url()).toBe '/'</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T124938Z" creationid="nacyot" creationdate="20140313T124938Z">
@@ -5137,6 +5257,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>expect(inject.bind(null, svc)).toThrow('mySvc: myVal not provided');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152935Z" creationid="nacyot" creationdate="20140313T152935Z">
+        <seg>expect(inject.bind(null, svc)).toThrow('mySvc: myVal not provided');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>expect(invalidTemplate).toThrow()</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T123520Z" creationid="nacyot" creationdate="20140313T123520Z">
@@ -5149,6 +5277,38 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T123552Z" creationid="nacyot" creationdate="20140313T123552Z">
         <seg>expect(invalidTemplate).toThrow();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(mySvc.myArray instanceof Array).toBe true</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153005Z" creationid="nacyot" creationdate="20140313T153005Z">
+        <seg>expect(mySvc.myArray instanceof Array).toBe true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(mySvc.myArray instanceof Array).toBe(true);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153007Z" creationid="nacyot" creationdate="20140313T153007Z">
+        <seg>expect(mySvc.myArray instanceof Array).toBe(true);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(mySvc.myDate instanceof Date).toBe true</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153017Z" creationid="nacyot" creationdate="20140313T153017Z">
+        <seg>expect(mySvc.myDate instanceof Date).toBe true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(mySvc.myDate instanceof Date).toBe(true);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153023Z" creationid="nacyot" creationdate="20140313T153023Z">
+        <seg>expect(mySvc.myDate instanceof Date).toBe true</seg>
       </tuv>
     </tu>
     <tu>
@@ -5181,6 +5341,86 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T121118Z" creationid="nacyot" creationdate="20140313T121118Z">
         <seg>expect(mySvc.myMethod.callCount).toBe(1);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(mySvc.myNull).toBe null</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153032Z" creationid="nacyot" creationdate="20140313T153032Z">
+        <seg>expect(mySvc.myNull).toBe null</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(mySvc.myNull).toBe(null);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153033Z" creationid="nacyot" creationdate="20140313T153033Z">
+        <seg>expect(mySvc.myNull).toBe(null);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(mySvc.myObject instanceof Object).toBe true</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153039Z" creationid="nacyot" creationdate="20140313T153039Z">
+        <seg>expect(mySvc.myObject instanceof Object).toBe true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(mySvc.myObject instanceof Object).toBe(true);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153040Z" creationid="nacyot" creationdate="20140313T153040Z">
+        <seg>expect(mySvc.myObject instanceof Object).toBe true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(mySvc.myRegExp instanceof RegExp).toBe true</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153042Z" creationid="nacyot" creationdate="20140313T153042Z">
+        <seg>expect(mySvc.myRegExp instanceof RegExp).toBe true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(mySvc.myRegExp instanceof RegExp).toBe(true);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153044Z" creationid="nacyot" creationdate="20140313T153044Z">
+        <seg>expect(mySvc.myRegExp instanceof RegExp).toBe true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(mySvc.myThing).toBeDefined()</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153001Z" creationid="nacyot" creationdate="20140313T153001Z">
+        <seg>expect(scope.myThing).toBeDefined()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(mySvc.myThing).toBeDefined();</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153003Z" creationid="nacyot" creationdate="20140313T153003Z">
+        <seg>expect(mySvc.myThing).toBeDefined();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(mySvc.myUndefined).not.toBeDefined()</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153051Z" creationid="nacyot" creationdate="20140313T153051Z">
+        <seg>expect(mySvc.myUndefined).not.toBeDefined()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(mySvc.myUndefined).not.toBeDefined();</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153054Z" creationid="nacyot" creationdate="20140313T153054Z">
+        <seg>expect(mySvc.myUndefined).not.toBeDefined()</seg>
       </tuv>
     </tu>
     <tu>
@@ -5313,6 +5553,70 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>expect(typeof mySvc.myBoolean).toBe 'boolean'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153009Z" creationid="nacyot" creationdate="20140313T153009Z">
+        <seg>expect(typeof scope.myBoolean).toBe 'boolean'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(typeof mySvc.myBoolean).toBe('boolean');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153011Z" creationid="nacyot" creationdate="20140313T153011Z">
+        <seg>expect(typeof mySvc.myBoolean).toBe('boolean');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(typeof mySvc.myMethod).toBe 'function'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153026Z" creationid="nacyot" creationdate="20140313T153026Z">
+        <seg>expect(typeof mySvc.myMethod).toBe 'function'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(typeof mySvc.myMethod).toBe('function');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153029Z" creationid="nacyot" creationdate="20140313T153029Z">
+        <seg>expect(typeof mySvc.myMethod).toBe('function');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(typeof mySvc.myNumber).toBe 'number'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153036Z" creationid="nacyot" creationdate="20140313T153036Z">
+        <seg>expect(typeof mySvc.myNumber).toBe 'number'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(typeof mySvc.myNumber).toBe('number');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153037Z" creationid="nacyot" creationdate="20140313T153037Z">
+        <seg>expect(typeof mySvc.myNumber).toBe('number');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(typeof mySvc.myString).toBe 'string'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153047Z" creationid="nacyot" creationdate="20140313T153047Z">
+        <seg>expect(typeof scope.myString).toBe 'string'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(typeof mySvc.myString).toBe('string');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153049Z" creationid="nacyot" creationdate="20140313T153049Z">
+        <seg>expect(typeof mySvc.myString).toBe('string');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>expect(typeof scope.myBoolean).toBe 'boolean'</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T115726Z" creationid="nacyot" creationdate="20140313T115726Z">
@@ -5405,6 +5709,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T152551Z" creationid="nacyot" creationdate="20140313T152551Z">
         <seg>expect(wrapper).toThrow 'mySvc: myVal not provided'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>expect(wrapper).toThrow('mySvc: myVal not provided');</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152932Z" creationid="nacyot" creationdate="20140313T152932Z">
+        <seg>expect(wrapper).toThrow('mySvc: myVal not provided');</seg>
       </tuv>
     </tu>
     <tu>
@@ -5729,6 +6041,30 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>function _inject() {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152759Z" creationid="nacyot" creationdate="20140313T152759Z">
+        <seg>function _inject() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>function _provide(callback) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152757Z" creationid="nacyot" creationdate="20140313T152757Z">
+        <seg>function _provide(callback) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>function _setup() {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152801Z" creationid="nacyot" creationdate="20140313T152801Z">
+        <seg>function _inject() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>function config($routeProvider) {</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T125320Z" creationid="nacyot" creationdate="20140313T125320Z">
@@ -5765,6 +6101,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T123538Z" creationid="nacyot" creationdate="20140313T123538Z">
         <seg>function invalidTemplate() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>function wrapper() {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152922Z" creationid="nacyot" creationdate="20140313T152922Z">
+        <seg>function wrapper() {</seg>
       </tuv>
     </tu>
     <tu>
@@ -6065,6 +6409,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>inject(function (_mySvc_) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152759Z" creationid="nacyot" creationdate="20140313T152759Z">
+        <seg>inject(function (_mySvc_) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>invalidTemplate = -&gt;</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T123316Z" creationid="nacyot" creationdate="20140313T123316Z">
@@ -6177,10 +6529,26 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>it('should exist', function () {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152852Z" creationid="nacyot" creationdate="20140313T152852Z">
+        <seg>it('mySvc 객체가 있어야 한다.', function () {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>it('should render the expected output', function () {</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T123730Z" creationid="nacyot" creationdate="20140313T123730Z">
         <seg>it('예상대로 렌더되어야한다.', function () {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>it('should throw an error when required dependency is missing', function () {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152914Z" creationid="nacyot" creationdate="20140313T152914Z">
+        <seg>it('필요한 의존성 객체가 없으면 에러가 발생해야 한다', function(){</seg>
       </tuv>
     </tu>
     <tu>
@@ -6857,6 +7225,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>provide.value('myVal', {});</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152802Z" creationid="nacyot" creationdate="20140313T152802Z">
+        <seg>provide.value('myVal', {});</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>redirectTo: '/'</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T125348Z" creationid="nacyot" creationdate="20140313T125348Z">
@@ -6925,6 +7301,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T125454Z" creationid="nacyot" creationdate="20140313T125454Z">
         <seg>restrict: 'EAC',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>result = mySvc.myMethod()</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153059Z" creationid="nacyot" creationdate="20140313T153059Z">
+        <seg>result = mySvc.myMethod()</seg>
       </tuv>
     </tu>
     <tu>
@@ -7977,6 +8361,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>var mySvc;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152751Z" creationid="nacyot" creationdate="20140313T152751Z">
+        <seg>var mySvc;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>var organizeByLang = function (file, blocks) {</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T133324Z" creationid="nacyot" creationdate="20140313T133324Z">
@@ -7997,6 +8389,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T125555Z" creationid="nacyot" creationdate="20140313T125555Z">
         <seg>var publicAPI = {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var result = mySvc.myMethod();</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T153100Z" creationid="nacyot" creationdate="20140313T153100Z">
+        <seg>var result = mySvc.myMethod();</seg>
       </tuv>
     </tu>
     <tu>
@@ -8069,6 +8469,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T130227Z" creationid="nacyot" creationdate="20140313T130227Z">
         <seg>var subject = match[4];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>var svc = function (mySvc) {};</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T152935Z" creationid="nacyot" creationdate="20140313T152935Z">
+        <seg>var svc = function (mySvc) {};</seg>
       </tuv>
     </tu>
     <tu>
