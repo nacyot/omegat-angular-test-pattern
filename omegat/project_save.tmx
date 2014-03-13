@@ -310,6 +310,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>## The Future</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143532Z" creationid="nacyot" creationdate="20140313T143532Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>## Unit Testing AngularJS Directives</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T122442Z" creationid="nacyot" creationdate="20140313T122351Z">
@@ -354,6 +362,46 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T121138Z" creationid="nacyot" creationdate="20140313T121138Z">
         <seg>### 자바스크립트</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>### Prepare your environment</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143225Z" creationid="nacyot" creationdate="20140313T143225Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>### Submitting Your Changes</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143455Z" creationid="nacyot" creationdate="20140313T143455Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>### To add a new pattern rule</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143606Z" creationid="nacyot" creationdate="20140313T143606Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>### To add a new test pattern</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143312Z" creationid="nacyot" creationdate="20140313T143312Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>### Unit Testing the Patterns</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143425Z" creationid="nacyot" creationdate="20140313T143425Z">
+        <seg></seg>
       </tuv>
     </tu>
     <tu>
@@ -966,10 +1014,58 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* Add a [test pattern section](spec/lib/parse.util.coffee.md#anatomy-of-a-test-pattern-section) for your pattern</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143555Z" creationid="nacyot" creationdate="20140313T143555Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Add a text file for each of the supported languages, [see examples](spec/fixtures).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143442Z" creationid="nacyot" creationdate="20140313T143442Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Add the [main repository](https://github.com/daniellmb/angular-test-patterns) as an upstream remote to your repository: `git remote add upstream https://github.com/daniellmb/angular-test-patterns.git`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143302Z" creationid="nacyot" creationdate="20140313T143302Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Check out the master branch, run: `git checkout master`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143517Z" creationid="nacyot" creationdate="20140313T143517Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Clone your Github repository: `git clone git@github.com:&lt;github username&gt;/angular-test-patterns.git`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143258Z" creationid="nacyot" creationdate="20140313T143258Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* CoffeeScript Compiler v1.6.3</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T133826Z" creationid="nacyot" creationdate="20140313T133826Z">
         <seg>* CoffeeScript Compiler v1.6.3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Commit your changes and create a descriptive commit message (the commit message is used to generate release notes, please check out the [commit message conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y) and the commit message presubmit hook [validate-commit-msg.js](hooks/validate-commit-msg.js)): `git commit -a`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143541Z" creationid="nacyot" creationdate="20140313T143541Z">
+        <seg></seg>
       </tuv>
     </tu>
     <tu>
@@ -998,10 +1094,82 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* Create a new `&lt;my-rule-name&gt;.spec.coffee.md` literate CoffeeScript file in the `spec/rules` folder.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143608Z" creationid="nacyot" creationdate="20140313T143608Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Create a new `&lt;my-rule-name&gt;` folder in the `spec/fixtures` folder.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143439Z" creationid="nacyot" creationdate="20140313T143439Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Create and checkout a new branch off the master branch for your changes: `git checkout -b my-fix-branch master`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143457Z" creationid="nacyot" creationdate="20140313T143457Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Create your patch, make sure that all tests pass.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143458Z" creationid="nacyot" creationdate="20140313T143458Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* Data type</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140311T165519Z" creationid="nacyot" creationdate="20140311T165519Z">
         <seg>* 데이터 타입</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Define your test pattern rule, [see examples](spec/rules).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143450Z" creationid="nacyot" creationdate="20140313T143450Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Delete your branch in Github, run: `git push origin :my-fix-branch`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143515Z" creationid="nacyot" creationdate="20140313T143515Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Delete your local branch, run: `git branch -D my-fix-branch`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143518Z" creationid="nacyot" creationdate="20140313T143518Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Edit or create a markdown file to hold your new test pattern.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143401Z" creationid="nacyot" creationdate="20140313T143401Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Edit the [example applications](/example) to satisfy your new pattern.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143559Z" creationid="nacyot" creationdate="20140313T143559Z">
+        <seg></seg>
       </tuv>
     </tu>
     <tu>
@@ -1022,10 +1190,50 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* Go to the test patterns directory: `cd angular-test-patterns`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143301Z" creationid="nacyot" creationdate="20140313T143301Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* Have a good pattern?</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140311T170105Z" creationid="nacyot" creationdate="20140311T170103Z">
         <seg>* 좋은 패턴을 알고 계신가요?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* If you need to make changes to your pull request, you can update the commit with `git commit --amend`.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143522Z" creationid="nacyot" creationdate="20140313T143522Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* In Github, send a pull request to `daniellmb:master`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143504Z" creationid="nacyot" creationdate="20140313T143504Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* In your new section add [code blocks](spec/lib/parse.util.coffee.md#anatomy-of-a-test-pattern-code-block) for each of the [supported languages](spec/config.json#L2).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143557Z" creationid="nacyot" creationdate="20140313T143557Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Install [Node.js](http://nodejs.org) (NPM will come bundled).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143229Z" creationid="nacyot" creationdate="20140313T143229Z">
+        <seg></seg>
       </tuv>
     </tu>
     <tu>
@@ -1054,6 +1262,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* Make your fixture as specific as possible.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143445Z" creationid="nacyot" creationdate="20140313T143445Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* Method use</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T114958Z" creationid="nacyot" creationdate="20140313T114958Z">
@@ -1066,6 +1282,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T130141Z" creationid="nacyot" creationdate="20140313T130141Z">
         <seg>* Modified from https://github.com/angular/angular.js/blob/master/validate-commit-msg.js</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Push your branch to Github: `git push origin my-fix-branch`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143543Z" creationid="nacyot" creationdate="20140313T143543Z">
+        <seg></seg>
       </tuv>
     </tu>
     <tu>
@@ -1086,6 +1310,30 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* Run `bash init-repo.sh` to initialize your local repository.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143309Z" creationid="nacyot" creationdate="20140313T143309Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Run `npm run testRules` to ensure the rule passes using the fixtures.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143454Z" creationid="nacyot" creationdate="20140313T143454Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Run `npm test` to ensure the pattern is valid.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143408Z" creationid="nacyot" creationdate="20140313T143408Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* See https://docs.google.com/document/d/1rk04jEuGfk9kYzfqCuOlPTSJw3hEDZJTBN5E5f1SALo/edit</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T130217Z" creationid="nacyot" creationdate="20140313T130158Z">
@@ -1102,10 +1350,50 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* Unit tests that each pattern follows those rules.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143418Z" creationid="nacyot" creationdate="20140313T143418Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Unit tests the [example applications](/example) against the patterns.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143422Z" creationid="nacyot" creationdate="20140313T143422Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Unit tests the [test pattern rules](#unit-testing-the-patterns).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143415Z" creationid="nacyot" creationdate="20140313T143415Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Update your master with the latest upstream version, run: `git pull --ff upstream master`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143521Z" creationid="nacyot" creationdate="20140313T143521Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* When the model changes</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T122620Z" creationid="nacyot" creationdate="20140313T122620Z">
         <seg>* 모델이 변경되었을 때</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* When the patch is reviewed and merged, delete your branch and pull yours — and other — changes from the main (upstream) repository:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143513Z" creationid="nacyot" creationdate="20140313T143513Z">
+        <seg></seg>
       </tuv>
     </tu>
     <tu>
@@ -1202,6 +1490,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T141941Z" creationid="nacyot" creationdate="20140313T141918Z">
         <seg>* [필터(Filters)](patterns/filter.md#unit-testing-angularjs-filters)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Fork](http://help.github.com/forking) the [main repository](https://github.com/daniellmb/angular-test-patterns).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143256Z" creationid="nacyot" creationdate="20140313T143256Z">
+        <seg></seg>
       </tuv>
     </tu>
     <tu>
@@ -1324,6 +1620,38 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T142202Z" creationid="nacyot" creationdate="20140313T142059Z">
         <seg>* [테스트 커버리지 기준 설정(Test Coverage Enforcement)](patterns/coverage.md#coverage-threshold-enforcement-for-angularjs)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Test Pattern Code is Valid](spec/rules/valid-code.spec.coffee.md)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143435Z" creationid="nacyot" creationdate="20140313T143435Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Test Pattern Language is Commented](spec/rules/code-comment.spec.coffee.md)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143431Z" creationid="nacyot" creationdate="20140313T143431Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Test Pattern Language is Supported](spec/rules/code-lang.spec.coffee.md)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143430Z" creationid="nacyot" creationdate="20140313T143430Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Test Pattern is Lint-Free](spec/rules/lint-free.spec.coffee.md)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143604Z" creationid="nacyot" creationdate="20140313T143604Z">
+        <seg></seg>
       </tuv>
     </tu>
     <tu>
@@ -2737,6 +3065,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>For example, if you are testing that the pattern is [lint-free](spec/fixtures/lint-free/coffeescript.txt) you don't need to include a [code comment](spec/fixtures/code-comment/coffeescript.txt) as there is a separate test for that.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143446Z" creationid="nacyot" creationdate="20140313T143446Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>For example:</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T133424Z" creationid="nacyot" creationdate="20140313T133424Z">
@@ -3025,6 +3361,22 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Thank you for your contribution!</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143528Z" creationid="nacyot" creationdate="20140313T143528Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>That's it!</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143527Z" creationid="nacyot" creationdate="20140313T143527Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The MIT License</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T142841Z" creationid="nacyot" creationdate="20140313T142841Z">
@@ -3177,6 +3529,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Then, update the pull request with `git push -f`.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143524Z" creationid="nacyot" creationdate="20140313T143524Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>There isn't really anything to configure you only need to create a file that includes the runner and the scenarios you want to run ([example file](../example/javascript/e2e.html)).</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T124517Z" creationid="nacyot" creationdate="20140313T124517Z">
@@ -3197,6 +3557,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T133441Z" creationid="nacyot" creationdate="20140313T133441Z">
         <seg>This convention helps reduce confusion between CoffeeScript comments such as `#` and `###`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This does the following:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143410Z" creationid="nacyot" creationdate="20140313T143410Z">
+        <seg></seg>
       </tuv>
     </tu>
     <tu>
@@ -3277,6 +3645,14 @@ Copyright (c) 2014- Daekwon Kim &lt;propellerheaven@gmail.com&gt; (translated in
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T142346Z" creationid="nacyot" creationdate="20140313T142346Z">
         <seg>이 프로젝트는 제가 맡은 몇몇 앵귤러JS 프로젝트에서 사용한 패턴들을 정리하는 데서 시작되었습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To ensure a clear and consistent style of test patterns, every block of code must pass the following [rules](spec/rules) via `npm test` The rules are written in literate CoffeeScript so they are nicely self-documenting.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T143428Z" creationid="nacyot" creationdate="20140313T143428Z">
+        <seg></seg>
       </tuv>
     </tu>
     <tu>
