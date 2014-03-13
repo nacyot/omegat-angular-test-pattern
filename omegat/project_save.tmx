@@ -1150,6 +1150,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* Data type test patterns</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T151921Z" creationid="nacyot" creationdate="20140313T151921Z">
+        <seg>* 데이터 타입 별 테스트 패턴</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* Define your test pattern rule, [see examples](spec/rules).</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T143450Z" creationid="nacyot" creationdate="20140313T143450Z">
@@ -1438,6 +1446,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* [Array](#provide-a-myarray-property-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T151930Z" creationid="nacyot" creationdate="20140313T151930Z">
+        <seg>* [배열(Array)](#provide-a-myarray-property-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* [Boolean](#attach-myboolean-to-the-scope-)</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140311T165927Z" creationid="nacyot" creationdate="20140311T165803Z">
@@ -1634,8 +1650,8 @@
       <tuv lang="EN">
         <seg>* [Suggested Setup](#suggested-service-unit-test-setup-)</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140313T150935Z" creationid="nacyot" creationdate="20140313T150935Z">
-        <seg>* []</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T151901Z" creationid="nacyot" creationdate="20140313T150935Z">
+        <seg>* [권장하는 설정](#suggested-service-unit-test-setup-)</seg>
       </tuv>
     </tu>
     <tu>
