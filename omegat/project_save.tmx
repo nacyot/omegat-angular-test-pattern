@@ -2578,8 +2578,8 @@
       <tuv lang="EN">
         <seg>High Quality Cut-n-Paste Guide for Testing your AngularJS [Controllers](patterns/controller.md), [Services](patterns/service.md), [Constants](patterns/constant.md), [Directives](patterns/directive.md) and [Filters](patterns/filter.md).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140313T135542Z" creationid="nacyot" creationdate="20140313T134906Z">
-        <seg>|&lt;.*?&gt;바로 활용할 수 있는 유용한 앵귤러JS 테스팅 패턴을 소개합니다. [컨트롤러](patterns/controller.md), [Services](patterns/service.md), [Constants](patterns/constant.md), [Directives](patterns/directive.md) and [Filters](patterns/filter.md)</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T141210Z" creationid="nacyot" creationdate="20140313T134906Z">
+        <seg>바로 활용할 수 있는 유용한 앵귤러JS 테스팅 패턴을 소개합니다. [컨트롤러](patterns/controller.md), [Services](patterns/service.md), [Constants](patterns/constant.md), [Directives](patterns/directive.md) and [Filters](patterns/filter.md)</seg>
       </tuv>
     </tu>
     <tu>
