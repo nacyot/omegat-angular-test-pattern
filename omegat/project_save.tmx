@@ -54,6 +54,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg># AngularJS Test Patterns</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T150848Z" creationid="nacyot" creationdate="20140313T150848Z">
+        <seg>## 앵귤러JS 테스트 패턴</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg># Check for section formatting issues</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T133450Z" creationid="nacyot" creationdate="20140313T133450Z">
@@ -234,6 +242,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T131551Z" creationid="nacyot" creationdate="20140313T131551Z">
         <seg># Take the first one</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg># Unit Testing AngularJS Services</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T150907Z" creationid="nacyot" creationdate="20140313T150907Z">
+        <seg># 앵귤러JS 서비스 유닛 테스트</seg>
       </tuv>
     </tu>
     <tu>
@@ -1612,6 +1628,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140313T124542Z" creationid="nacyot" creationdate="20140313T124542Z">
         <seg>* [권장하는 설정](#suggested-scenario-unit-test-setup-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [Suggested Setup](#suggested-service-unit-test-setup-)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140313T150935Z" creationid="nacyot" creationdate="20140313T150935Z">
+        <seg>* []</seg>
       </tuv>
     </tu>
     <tu>
